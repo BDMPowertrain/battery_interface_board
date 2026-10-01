@@ -506,15 +506,15 @@ definitions:
 
   # Metadata — MEMBER: set once by configure.py, never by hand =================
 
-  PROJECT_NAME: Board Name
-  BOARD_NAME: BOARD_NAME
-  DESCRIPTION: One-line description of what this board does.
+  PROJECT_NAME: Battery Interface Board
+  BOARD_NAME: BATTERY_INTERFACE_BOARD
+  DESCRIPTION: This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.
 
   COMPANY: Blue Devil Motor Sports
-  DESIGNER: Author
+  DESIGNER: Aidan Brzezinski
 
   LOGO: 'Logos/bdm_logo.png'
-  GIT_URL: 'https://github.com/BDMPowertrain/PLACEHOLDER'
+  GIT_URL: 'https://github.com/BDMPowertrain/battery_interface_board'
 
   # Preflight ==================================================================
 
