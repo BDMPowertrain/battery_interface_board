@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "remote_n_a") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_n_a.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_0436500200") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_0436500200.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_0451.500mrl") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_0451.500mrl.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_ipt1-115-01-l-d") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_ipt1-115-01-l-d.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_0430450409") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_0430450409.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_ipt1-110-01-l-d") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_ipt1-110-01-l-d.pretty/") (options "") (descr "Remote download"))
+)
