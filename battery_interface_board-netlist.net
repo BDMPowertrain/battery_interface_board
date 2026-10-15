@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-av3eabyz/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-wnzdsaoa/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,7 +23,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "efd0906")
+			(name "GIT_HASH_PCB") "e8cfea9")
 		(textvar
 			(name "GIT_HASH_SCH") "efd0906")
 		(textvar
@@ -45,9 +45,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "13-Oct-2026")
+			(name "RELEASE_DATE") "15-Oct-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-10-13")
+			(name "RELEASE_DATE_NUM") "2026-10-15")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -4606,8 +4606,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "18")
-				(pinfunction "18_18")
+				(pin "04")
+				(pinfunction "04_04")
 				(pintype "passive")
 			)
 			(node
@@ -4623,8 +4623,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "16")
-				(pinfunction "16_16")
+				(pin "06")
+				(pinfunction "06_06")
 				(pintype "passive")
 			)
 			(node
@@ -4640,8 +4640,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "14")
-				(pinfunction "14_14")
+				(pin "08")
+				(pinfunction "08_08")
 				(pintype "passive")
 			)
 			(node
@@ -4657,8 +4657,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "12")
-				(pinfunction "12_12")
+				(pin "10")
+				(pinfunction "10_10")
 				(pintype "passive")
 			)
 			(node
@@ -4674,8 +4674,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "10")
-				(pinfunction "10_10")
+				(pin "12")
+				(pinfunction "12_12")
 				(pintype "passive")
 			)
 			(node
@@ -4691,8 +4691,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "08")
-				(pinfunction "08_08")
+				(pin "14")
+				(pinfunction "14_14")
 				(pintype "passive")
 			)
 			(node
@@ -4708,8 +4708,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "06")
-				(pinfunction "06_06")
+				(pin "16")
+				(pinfunction "16_16")
 				(pintype "passive")
 			)
 			(node
@@ -4725,8 +4725,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "04")
-				(pinfunction "04_04")
+				(pin "18")
+				(pinfunction "18_18")
 				(pintype "passive")
 			)
 			(node

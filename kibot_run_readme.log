@@ -1,4 +1,4 @@
-DEBUG:KiBot 1.9.2 verbose level: 0 started on 2026-10-14 03:35:45.022644 (kibot - __main__.py:854)
+DEBUG:KiBot 1.9.2 verbose level: 0 started on 2026-10-15 21:11:50.491429 (kibot - __main__.py:854)
 DEBUG:Filtering warnings we always get on CI/CD (kibot - __main__.py:757)
 DEBUG:Command line options: {'--banner': None,
  '--board-file': None,
@@ -3228,7 +3228,7 @@ DEBUG:- PCB Material/s: FR4_7628 / FR4 (kibot.globals - globals.py:604)
 DEBUG:- Copper thickness: 70 / 35 (kibot.globals - globals.py:606)
 DEBUG:Configuring from default: aliases_for_3d_models -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: extra_os -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: environment -> <kibot.globals.Environment object at 0x7f411f074d70> (kibot - optionable.py:377)
+DEBUG:Configuring from default: environment -> <kibot.globals.Environment object at 0x7f6117f34d70> (kibot - optionable.py:377)
 DEBUG:Configuring from default: field_tolerance -> ['tolerance', 'tol'] (kibot - optionable.py:613)
 DEBUG:Configuring from default: field_voltage -> ['voltage', 'v'] (kibot - optionable.py:613)
 DEBUG:Configuring from default: field_package -> ['package', 'pkg'] (kibot - optionable.py:613)
@@ -3282,30 +3282,30 @@ DEBUG:Adding groups: {'all_group': ['netlist', 'bom', '3d', 'fab', 'assembly', '
 DEBUG:Importing variants from the schematic (kibot - var_kicad.py:74)
 DEBUG:Mapping schematic `battery_interface_board.kicad_sch` to UUID `f9e05184-c88b-4a88-ae9c-ab2bdb32be7c` found in `/github/workspace/battery_interface_board.kicad_pro` (kibot - kiplot.py:367)
 DEBUG:Loading sheet from /github/workspace/battery_interface_board.kicad_sch (kibot - v6_sch.py:2976)
-DEBUG:Current text variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'df0e861', 'GIT_HASH_SCH': 'df0e861', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '01-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-01', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': '......................................', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'Section A - Title A', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'Section B - Title B', 'SHEET_NAME_6': 'Power - Sequencing', 'SHEET_NAME_7': 'Revision History', 'SHEET_NAME_8': '......................................', 'SHEET_NAME_9': '......................................'} (kibot.gs - gs.py:368)
-DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:636)
-DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:636)
+DEBUG:Current text variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'efd0906', 'GIT_HASH_SCH': 'efd0906', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '13-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-13', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': '......................................', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'Connectors', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'Cell Taps', 'SHEET_NAME_6': 'Revision History', 'SHEET_NAME_7': '......................................', 'SHEET_NAME_8': '......................................', 'SHEET_NAME_9': '......................................'} (kibot.gs - gs.py:373)
+DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
+DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:641)
 DEBUG:SCH title: `None` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `${REVISION}` (kibot - v6_sch.py:2533)
 DEBUG:SCH company: `${COMPANY}` (kibot - v6_sch.py:2534)
 DEBUG:Loading sheet from /github/workspace/Revision History.kicad_sch (kibot - v6_sch.py:2976)
-DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:636)
-DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:636)
+DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
+DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:641)
 DEBUG:SCH title: `Revision History` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `${REVISION}` (kibot - v6_sch.py:2533)
 DEBUG:SCH company: `${COMPANY}` (kibot - v6_sch.py:2534)
 DEBUG:Loading sheet from /github/workspace/Block Diagram.kicad_sch (kibot - v6_sch.py:2976)
-DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:636)
-DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:636)
+DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
+DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:641)
 DEBUG:SCH title: `Block Diagram` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `${REVISION}` (kibot - v6_sch.py:2533)
 DEBUG:SCH company: `${COMPANY}` (kibot - v6_sch.py:2534)
 DEBUG:Loading sheet from /github/workspace/Project Architecture.kicad_sch (kibot - v6_sch.py:2976)
-DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:636)
-DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:636)
+DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
+DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:641)
 DEBUG:SCH title: `Project Architecture` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `${REVISION}` (kibot - v6_sch.py:2533)
@@ -3315,32 +3315,32 @@ DEBUG:SCH title: `None` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `None` (kibot - v6_sch.py:2533)
 DEBUG:SCH company: `None` (kibot - v6_sch.py:2534)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917670181792]  UUID 07ac6637-5161-41e0-a9a7-cdafe152954f original UUID 07ac6637-5161-41e0-a9a7-cdafe152954f (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917665336080]  UUID 182a5897-4722-40f3-a44b-9dd6b4b981a4 original UUID 182a5897-4722-40f3-a44b-9dd6b4b981a4 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917665336400]  UUID 214bdce0-6a72-4a78-99dd-bf21f0561f38 original UUID 214bdce0-6a72-4a78-99dd-bf21f0561f38 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917665336720]  UUID 264ceb97-cc2e-41d1-9ac2-db93048ca718 original UUID 264ceb97-cc2e-41d1-9ac2-db93048ca718 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917665337040]  UUID 324148c9-2b77-4ff5-8781-1a74e61fd739 original UUID 324148c9-2b77-4ff5-8781-1a74e61fd739 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (430450409 ) [id 139917667647568]  UUID 4c711d44-0a96-4dca-85ec-03a0de842127 original UUID 4c711d44-0a96-4dca-85ec-03a0de842127 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667647888]  UUID 5dcec8c2-2eaf-480b-bfcf-be36f7403350 original UUID 5dcec8c2-2eaf-480b-bfcf-be36f7403350 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667648208]  UUID 72b44502-c581-43f4-b5c7-452dae7a9c15 original UUID 72b44502-c581-43f4-b5c7-452dae7a9c15 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667648528]  UUID 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 original UUID 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667648848]  UUID 74de015d-620b-44f4-b42b-cb9063922c3b original UUID 74de015d-620b-44f4-b42b-cb9063922c3b (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (430450409 ) [id 139917667649168]  UUID 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 original UUID 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667649488]  UUID 9321027c-f4d7-419d-bcb9-91cc9da7cded original UUID 9321027c-f4d7-419d-bcb9-91cc9da7cded (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054990384032]  UUID 07ac6637-5161-41e0-a9a7-cdafe152954f original UUID 07ac6637-5161-41e0-a9a7-cdafe152954f (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054985455440]  UUID 182a5897-4722-40f3-a44b-9dd6b4b981a4 original UUID 182a5897-4722-40f3-a44b-9dd6b4b981a4 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054985455760]  UUID 214bdce0-6a72-4a78-99dd-bf21f0561f38 original UUID 214bdce0-6a72-4a78-99dd-bf21f0561f38 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054985456080]  UUID 264ceb97-cc2e-41d1-9ac2-db93048ca718 original UUID 264ceb97-cc2e-41d1-9ac2-db93048ca718 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054985456400]  UUID 324148c9-2b77-4ff5-8781-1a74e61fd739 original UUID 324148c9-2b77-4ff5-8781-1a74e61fd739 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (430450409 ) [id 140054985456720]  UUID 4c711d44-0a96-4dca-85ec-03a0de842127 original UUID 4c711d44-0a96-4dca-85ec-03a0de842127 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054985457040]  UUID 5dcec8c2-2eaf-480b-bfcf-be36f7403350 original UUID 5dcec8c2-2eaf-480b-bfcf-be36f7403350 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054985457360]  UUID 72b44502-c581-43f4-b5c7-452dae7a9c15 original UUID 72b44502-c581-43f4-b5c7-452dae7a9c15 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987833424]  UUID 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 original UUID 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987833744]  UUID 74de015d-620b-44f4-b42b-cb9063922c3b original UUID 74de015d-620b-44f4-b42b-cb9063922c3b (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (430450409 ) [id 140054987834064]  UUID 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 original UUID 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987834384]  UUID 9321027c-f4d7-419d-bcb9-91cc9da7cded original UUID 9321027c-f4d7-419d-bcb9-91cc9da7cded (kibot - v6_sch.py:3128)
 WARNING:(W004) Field conflict: Manufacturer='Samtec Inc.' vs MANUFACTURER='Samtec' (in J10) (kibot - v6_sch.py:1445)
-DEBUG:- Loaded ?? (IPT1-110-01-L-D ) [id 139917667649808]  UUID 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 original UUID 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667650128]  UUID 9e1884c6-6985-401d-b2f6-c09be8e38402 original UUID 9e1884c6-6985-401d-b2f6-c09be8e38402 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667650448]  UUID a32b7c3f-06a6-4ce8-8958-d44954779566 original UUID a32b7c3f-06a6-4ce8-8958-d44954779566 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (430450409 ) [id 139917667650768]  UUID af51e97f-8cd4-4aa9-9ba0-b9406ca632bb original UUID af51e97f-8cd4-4aa9-9ba0-b9406ca632bb (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667651088]  UUID af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b original UUID af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667651408]  UUID b5c0aa88-aa3a-4566-b07d-5d4958f0b438 original UUID b5c0aa88-aa3a-4566-b07d-5d4958f0b438 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667651728]  UUID c8975021-1cc7-4155-b337-118e3628fa38 original UUID c8975021-1cc7-4155-b337-118e3628fa38 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667652048]  UUID cc49d699-440b-46db-a3bb-b8b9b937fdfd original UUID cc49d699-440b-46db-a3bb-b8b9b937fdfd (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667652368]  UUID e2a57c8b-ec8f-4968-a98a-c0d741773808 original UUID e2a57c8b-ec8f-4968-a98a-c0d741773808 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (430450409 ) [id 139917667652688]  UUID ea55c9f2-7951-40d5-959c-6554e343a694 original UUID ea55c9f2-7951-40d5-959c-6554e343a694 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667653008]  UUID edd74d1d-4380-4510-a434-75489c5a1fb2 original UUID edd74d1d-4380-4510-a434-75489c5a1fb2 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (Steped_Bushing ) [id 139917667653328]  UUID f6ea5ff6-a3bb-47c9-90df-059c0206a062 original UUID f6ea5ff6-a3bb-47c9-90df-059c0206a062 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (0451.500MRL ) [id 139917667653648]  UUID fee24320-7669-4290-993e-9a84adff6f77 original UUID fee24320-7669-4290-993e-9a84adff6f77 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (IPT1-110-01-L-D ) [id 140054987834704]  UUID 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 original UUID 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987835024]  UUID 9e1884c6-6985-401d-b2f6-c09be8e38402 original UUID 9e1884c6-6985-401d-b2f6-c09be8e38402 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987835344]  UUID a32b7c3f-06a6-4ce8-8958-d44954779566 original UUID a32b7c3f-06a6-4ce8-8958-d44954779566 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (430450409 ) [id 140054987835664]  UUID af51e97f-8cd4-4aa9-9ba0-b9406ca632bb original UUID af51e97f-8cd4-4aa9-9ba0-b9406ca632bb (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987835984]  UUID af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b original UUID af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987836304]  UUID b5c0aa88-aa3a-4566-b07d-5d4958f0b438 original UUID b5c0aa88-aa3a-4566-b07d-5d4958f0b438 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987836624]  UUID c8975021-1cc7-4155-b337-118e3628fa38 original UUID c8975021-1cc7-4155-b337-118e3628fa38 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987836944]  UUID cc49d699-440b-46db-a3bb-b8b9b937fdfd original UUID cc49d699-440b-46db-a3bb-b8b9b937fdfd (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987837264]  UUID e2a57c8b-ec8f-4968-a98a-c0d741773808 original UUID e2a57c8b-ec8f-4968-a98a-c0d741773808 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (430450409 ) [id 140054987837584]  UUID ea55c9f2-7951-40d5-959c-6554e343a694 original UUID ea55c9f2-7951-40d5-959c-6554e343a694 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987837904]  UUID edd74d1d-4380-4510-a434-75489c5a1fb2 original UUID edd74d1d-4380-4510-a434-75489c5a1fb2 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (Steped_Bushing ) [id 140054987838224]  UUID f6ea5ff6-a3bb-47c9-90df-059c0206a062 original UUID f6ea5ff6-a3bb-47c9-90df-059c0206a062 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (0451.500MRL ) [id 140054987838544]  UUID fee24320-7669-4290-993e-9a84adff6f77 original UUID fee24320-7669-4290-993e-9a84adff6f77 (kibot - v6_sch.py:3128)
 DEBUG:Loading sheet from /github/workspace/celltaps.kicad_sch (kibot - v6_sch.py:2976)
 DEBUG:SCH title: `None` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-12` (kibot - v6_sch.py:2532)
@@ -3408,31 +3408,31 @@ DEBUG:  - /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad
 DEBUG:  - /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/fee24320-7669-4290-993e-9a84adff6f77 -> ?? (0451.500MRL ) (kibot - v6_sch.py:2920)
 DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/dfe2523f-0ef1-463c-b7b4-0d3b5205f0f8 (kibot - v6_sch.py:2918)
 DEBUG:Assigning components to instances (kibot - v6_sch.py:3176)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/07ac6637-5161-41e0-a9a7-cdafe152954f -> J9 -> 139917670181792 07ac6637-5161-41e0-a9a7-cdafe152954f (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/182a5897-4722-40f3-a44b-9dd6b4b981a4 -> F11 -> 139917665336080 182a5897-4722-40f3-a44b-9dd6b4b981a4 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/214bdce0-6a72-4a78-99dd-bf21f0561f38 -> F5 -> 139917665336400 214bdce0-6a72-4a78-99dd-bf21f0561f38 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/264ceb97-cc2e-41d1-9ac2-db93048ca718 -> J3 -> 139917665336720 264ceb97-cc2e-41d1-9ac2-db93048ca718 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/324148c9-2b77-4ff5-8781-1a74e61fd739 -> F6 -> 139917665337040 324148c9-2b77-4ff5-8781-1a74e61fd739 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/4c711d44-0a96-4dca-85ec-03a0de842127 -> J14 -> 139917667647568 4c711d44-0a96-4dca-85ec-03a0de842127 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/5dcec8c2-2eaf-480b-bfcf-be36f7403350 -> J1 -> 139917667647888 5dcec8c2-2eaf-480b-bfcf-be36f7403350 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/72b44502-c581-43f4-b5c7-452dae7a9c15 -> F10 -> 139917667648208 72b44502-c581-43f4-b5c7-452dae7a9c15 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 -> J5 -> 139917667648528 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/74de015d-620b-44f4-b42b-cb9063922c3b -> F7 -> 139917667648848 74de015d-620b-44f4-b42b-cb9063922c3b (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 -> J11 -> 139917667649168 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9321027c-f4d7-419d-bcb9-91cc9da7cded -> F8 -> 139917667649488 9321027c-f4d7-419d-bcb9-91cc9da7cded (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9b2ee494-4ef0-4dee-9c02-0e601e7ed117 -> J10 -> 139917667649808 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9e1884c6-6985-401d-b2f6-c09be8e38402 -> F2 -> 139917667650128 9e1884c6-6985-401d-b2f6-c09be8e38402 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/a32b7c3f-06a6-4ce8-8958-d44954779566 -> F4 -> 139917667650448 a32b7c3f-06a6-4ce8-8958-d44954779566 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/af51e97f-8cd4-4aa9-9ba0-b9406ca632bb -> J12 -> 139917667650768 af51e97f-8cd4-4aa9-9ba0-b9406ca632bb (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b -> J8 -> 139917667651088 af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/b5c0aa88-aa3a-4566-b07d-5d4958f0b438 -> F3 -> 139917667651408 b5c0aa88-aa3a-4566-b07d-5d4958f0b438 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/c8975021-1cc7-4155-b337-118e3628fa38 -> J4 -> 139917667651728 c8975021-1cc7-4155-b337-118e3628fa38 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/cc49d699-440b-46db-a3bb-b8b9b937fdfd -> J2 -> 139917667652048 cc49d699-440b-46db-a3bb-b8b9b937fdfd (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/e2a57c8b-ec8f-4968-a98a-c0d741773808 -> J7 -> 139917667652368 e2a57c8b-ec8f-4968-a98a-c0d741773808 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/ea55c9f2-7951-40d5-959c-6554e343a694 -> J13 -> 139917667652688 ea55c9f2-7951-40d5-959c-6554e343a694 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/edd74d1d-4380-4510-a434-75489c5a1fb2 -> F9 -> 139917667653008 edd74d1d-4380-4510-a434-75489c5a1fb2 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/f6ea5ff6-a3bb-47c9-90df-059c0206a062 -> J6 -> 139917667653328 f6ea5ff6-a3bb-47c9-90df-059c0206a062 (kibot - v6_sch.py:3221)
-DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/fee24320-7669-4290-993e-9a84adff6f77 -> F1 -> 139917667653648 fee24320-7669-4290-993e-9a84adff6f77 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/07ac6637-5161-41e0-a9a7-cdafe152954f -> J9 -> 140054990384032 07ac6637-5161-41e0-a9a7-cdafe152954f (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/182a5897-4722-40f3-a44b-9dd6b4b981a4 -> F11 -> 140054985455440 182a5897-4722-40f3-a44b-9dd6b4b981a4 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/214bdce0-6a72-4a78-99dd-bf21f0561f38 -> F5 -> 140054985455760 214bdce0-6a72-4a78-99dd-bf21f0561f38 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/264ceb97-cc2e-41d1-9ac2-db93048ca718 -> J3 -> 140054985456080 264ceb97-cc2e-41d1-9ac2-db93048ca718 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/324148c9-2b77-4ff5-8781-1a74e61fd739 -> F6 -> 140054985456400 324148c9-2b77-4ff5-8781-1a74e61fd739 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/4c711d44-0a96-4dca-85ec-03a0de842127 -> J14 -> 140054985456720 4c711d44-0a96-4dca-85ec-03a0de842127 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/5dcec8c2-2eaf-480b-bfcf-be36f7403350 -> J1 -> 140054985457040 5dcec8c2-2eaf-480b-bfcf-be36f7403350 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/72b44502-c581-43f4-b5c7-452dae7a9c15 -> F10 -> 140054985457360 72b44502-c581-43f4-b5c7-452dae7a9c15 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 -> J5 -> 140054987833424 740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/74de015d-620b-44f4-b42b-cb9063922c3b -> F7 -> 140054987833744 74de015d-620b-44f4-b42b-cb9063922c3b (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 -> J11 -> 140054987834064 8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9321027c-f4d7-419d-bcb9-91cc9da7cded -> F8 -> 140054987834384 9321027c-f4d7-419d-bcb9-91cc9da7cded (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9b2ee494-4ef0-4dee-9c02-0e601e7ed117 -> J10 -> 140054987834704 9b2ee494-4ef0-4dee-9c02-0e601e7ed117 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/9e1884c6-6985-401d-b2f6-c09be8e38402 -> F2 -> 140054987835024 9e1884c6-6985-401d-b2f6-c09be8e38402 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/a32b7c3f-06a6-4ce8-8958-d44954779566 -> F4 -> 140054987835344 a32b7c3f-06a6-4ce8-8958-d44954779566 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/af51e97f-8cd4-4aa9-9ba0-b9406ca632bb -> J12 -> 140054987835664 af51e97f-8cd4-4aa9-9ba0-b9406ca632bb (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b -> J8 -> 140054987835984 af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/b5c0aa88-aa3a-4566-b07d-5d4958f0b438 -> F3 -> 140054987836304 b5c0aa88-aa3a-4566-b07d-5d4958f0b438 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/c8975021-1cc7-4155-b337-118e3628fa38 -> J4 -> 140054987836624 c8975021-1cc7-4155-b337-118e3628fa38 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/cc49d699-440b-46db-a3bb-b8b9b937fdfd -> J2 -> 140054987836944 cc49d699-440b-46db-a3bb-b8b9b937fdfd (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/e2a57c8b-ec8f-4968-a98a-c0d741773808 -> J7 -> 140054987837264 e2a57c8b-ec8f-4968-a98a-c0d741773808 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/ea55c9f2-7951-40d5-959c-6554e343a694 -> J13 -> 140054987837584 ea55c9f2-7951-40d5-959c-6554e343a694 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/edd74d1d-4380-4510-a434-75489c5a1fb2 -> F9 -> 140054987837904 edd74d1d-4380-4510-a434-75489c5a1fb2 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/f6ea5ff6-a3bb-47c9-90df-059c0206a062 -> J6 -> 140054987838224 f6ea5ff6-a3bb-47c9-90df-059c0206a062 (kibot - v6_sch.py:3221)
+DEBUG:- /c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/fee24320-7669-4290-993e-9a84adff6f77 -> F1 -> 140054987838544 fee24320-7669-4290-993e-9a84adff6f77 (kibot - v6_sch.py:3221)
 DEBUG:Schematic dependencies: ['/github/workspace/Block Diagram.kicad_sch', '/github/workspace/Project Architecture.kicad_sch', '/github/workspace/Revision History.kicad_sch', '/github/workspace/battery_interface_board.kicad_sch', '/github/workspace/celltaps.kicad_sch', '/github/workspace/connectors.kicad_sch'] (kibot - kiplot.py:380)
 Installing font Arial_Bold.ttf
 Installing font Arial_Italic.ttf
@@ -3491,7 +3491,7 @@ DEBUG:Skipping `draw_fancy_stackup` (kibot - kiplot.py:695)
 DEBUG:Skipping `erc` (kibot - kiplot.py:695)
 DEBUG:Skipping `drc` (kibot - kiplot.py:695)
 DEBUG:Preflight apply set_text_variables (kibot.pre_base - pre_base.py:161)
-DEBUG:- Current variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'df0e861', 'GIT_HASH_SCH': 'df0e861', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '01-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-01', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': '......................................', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'Section A - Title A', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'Section B - Title B', 'SHEET_NAME_6': 'Power - Sequencing', 'SHEET_NAME_7': 'Revision History', 'SHEET_NAME_8': '......................................', 'SHEET_NAME_9': '......................................'} (kibot - pre_set_text_variables.py:141)
+DEBUG:- Current variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'efd0906', 'GIT_HASH_SCH': 'efd0906', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '13-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-13', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': '......................................', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'Connectors', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'Cell Taps', 'SHEET_NAME_6': 'Revision History', 'SHEET_NAME_7': '......................................', 'SHEET_NAME_8': '......................................', 'SHEET_NAME_9': '......................................'} (kibot - pre_set_text_variables.py:141)
 DEBUG:  - REVISION -> + (Unreleased) (kibot - pre_set_text_variables.py:173)
 DEBUG:Starting tool check for Git (kibot - dep_downloader.py:866)
 DEBUG:- Checking binary tool Git (kibot - dep_downloader.py:772)
@@ -3517,7 +3517,7 @@ There is NO WARRANTY, to the extent permitted by law.` (kibot - dep_downloader.p
 DEBUG:- Found version (5, 2, 37, 0) (kibot - dep_downloader.py:694)
 DEBUG:- Returning `/usr/bin/bash` (kibot - dep_downloader.py:873)
 DEBUG:Executing: /usr/bin/bash -c '/usr/bin/git log -1 --format="%ad" --date="format:%d-%b-%Y"' (kibot - pre_set_text_variables.py:160)
-DEBUG:  - RELEASE_DATE -> 13-Oct-2026 (kibot - pre_set_text_variables.py:173)
+DEBUG:  - RELEASE_DATE -> 15-Oct-2026 (kibot - pre_set_text_variables.py:173)
 DEBUG:Starting tool check for Git (kibot - dep_downloader.py:866)
 DEBUG:- Checking binary tool Git (kibot - dep_downloader.py:772)
 DEBUG:- Looking for tool `git` at system level (kibot - dep_downloader.py:700)
@@ -3526,7 +3526,7 @@ DEBUG:- No particular version needed (kibot - dep_downloader.py:681)
 DEBUG:- Cached version (2, 47, 3, 0) (kibot - dep_downloader.py:687)
 DEBUG:- Returning `/usr/bin/git` (kibot - dep_downloader.py:873)
 DEBUG:Executing: /usr/bin/bash -c '/usr/bin/git log -1 --format="%ad" --date=short' (kibot - pre_set_text_variables.py:160)
-DEBUG:  - RELEASE_DATE_NUM -> 2026-10-13 (kibot - pre_set_text_variables.py:173)
+DEBUG:  - RELEASE_DATE_NUM -> 2026-10-15 (kibot - pre_set_text_variables.py:173)
 DEBUG:Starting tool check for Git (kibot - dep_downloader.py:866)
 DEBUG:- Checking binary tool Git (kibot - dep_downloader.py:772)
 DEBUG:- Looking for tool `git` at system level (kibot - dep_downloader.py:700)
@@ -3544,7 +3544,7 @@ DEBUG:- No particular version needed (kibot - dep_downloader.py:681)
 DEBUG:- Cached version (2, 47, 3, 0) (kibot - dep_downloader.py:687)
 DEBUG:- Returning `/usr/bin/git` (kibot - dep_downloader.py:873)
 DEBUG:Executing: /usr/bin/bash -c '/usr/bin/git log -1 --format="%h" $KIBOT_PCB_NAME' (kibot - pre_set_text_variables.py:160)
-DEBUG:  - GIT_HASH_PCB -> efd0906 (kibot - pre_set_text_variables.py:173)
+DEBUG:  - GIT_HASH_PCB -> e8cfea9 (kibot - pre_set_text_variables.py:173)
 DEBUG:  - GIT_URL -> https://github.com/BDMPowertrain/battery_interface_board (kibot - pre_set_text_variables.py:173)
 DEBUG:  - BRANCH -> dev (kibot - pre_set_text_variables.py:173)
 DEBUG:  - PROJECT_NAME -> Battery Interface Board (kibot - pre_set_text_variables.py:173)
@@ -3647,14 +3647,14 @@ DEBUG:  - SHEET_NAME_40 -> Error: XML File not found (kibot - pre_set_text_varia
 DEBUG:- Expanding %X patterns in variables (kibot - pre_set_text_variables.py:175)
 DEBUG:Expanding `+ (Unreleased)` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
 DEBUG:Expanded `+ (Unreleased)` (kibot - optionable.py:554)
-DEBUG:Expanding `13-Oct-2026` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
-DEBUG:Expanded `13-Oct-2026` (kibot - optionable.py:554)
-DEBUG:Expanding `2026-10-13` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
-DEBUG:Expanded `2026-10-13` (kibot - optionable.py:554)
+DEBUG:Expanding `15-Oct-2026` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
+DEBUG:Expanded `15-Oct-2026` (kibot - optionable.py:554)
+DEBUG:Expanding `2026-10-15` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
+DEBUG:Expanded `2026-10-15` (kibot - optionable.py:554)
 DEBUG:Expanding `efd0906` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
 DEBUG:Expanded `efd0906` (kibot - optionable.py:554)
-DEBUG:Expanding `efd0906` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
-DEBUG:Expanded `efd0906` (kibot - optionable.py:554)
+DEBUG:Expanding `e8cfea9` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
+DEBUG:Expanded `e8cfea9` (kibot - optionable.py:554)
 DEBUG:Expanding `https://github.com/BDMPowertrain/battery_interface_board` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
 DEBUG:Expanded `https://github.com/BDMPowertrain/battery_interface_board` (kibot - optionable.py:554)
 DEBUG:Expanding `dev` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
@@ -3760,7 +3760,7 @@ DEBUG:Expanding `Error: XML File not found` in SCH context for set_text_variable
 DEBUG:Expanded `Error: XML File not found` (kibot - optionable.py:554)
 DEBUG:Expanding `Error: XML File not found` in SCH context for set_text_variables (REVISION, RELEASE_DATE, RELEASE_DATE_NUM, GIT_HASH_SCH, GIT_HASH_PCB, GIT_URL, BRANCH, PROJECT_NAME, BOARD_NAME, DESCRIPTION, COMPANY, DESIGNER, BUILD_VARIANT, RELEASE_TITLE_UNRELEASED, RELEASE_BODY_UNRELEASED, FABRICATION_NOTES, ASSEMBLY_NOTES, SHEET_NAME_1, SHEET_NAME_2, SHEET_NAME_3, SHEET_NAME_4, SHEET_NAME_5, SHEET_NAME_6, SHEET_NAME_7, SHEET_NAME_8, SHEET_NAME_9, SHEET_NAME_10, SHEET_NAME_11, SHEET_NAME_12, SHEET_NAME_13, SHEET_NAME_14, SHEET_NAME_15, SHEET_NAME_16, SHEET_NAME_17, SHEET_NAME_18, SHEET_NAME_19, SHEET_NAME_20, SHEET_NAME_21, SHEET_NAME_22, SHEET_NAME_23, SHEET_NAME_24, SHEET_NAME_25, SHEET_NAME_26, SHEET_NAME_27, SHEET_NAME_28, SHEET_NAME_29, SHEET_NAME_30, SHEET_NAME_31, SHEET_NAME_32, SHEET_NAME_33, SHEET_NAME_34, SHEET_NAME_35, SHEET_NAME_36, SHEET_NAME_37, SHEET_NAME_38, SHEET_NAME_39 and SHEET_NAME_40) parent: None (kibot - optionable.py:508)
 DEBUG:Expanded `Error: XML File not found` (kibot - optionable.py:554)
-DEBUG:- New list of variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'efd0906', 'GIT_HASH_SCH': 'efd0906', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '13-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-13', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Error: XML File not found', 'SHEET_NAME_11': 'Error: XML File not found', 'SHEET_NAME_12': 'Error: XML File not found', 'SHEET_NAME_13': 'Error: XML File not found', 'SHEET_NAME_14': 'Error: XML File not found', 'SHEET_NAME_15': 'Error: XML File not found', 'SHEET_NAME_16': 'Error: XML File not found', 'SHEET_NAME_17': 'Error: XML File not found', 'SHEET_NAME_18': 'Error: XML File not found', 'SHEET_NAME_19': 'Error: XML File not found', 'SHEET_NAME_2': 'Error: XML File not found', 'SHEET_NAME_20': 'Error: XML File not found', 'SHEET_NAME_21': 'Error: XML File not found', 'SHEET_NAME_22': 'Error: XML File not found', 'SHEET_NAME_23': 'Error: XML File not found', 'SHEET_NAME_24': 'Error: XML File not found', 'SHEET_NAME_25': 'Error: XML File not found', 'SHEET_NAME_26': 'Error: XML File not found', 'SHEET_NAME_27': 'Error: XML File not found', 'SHEET_NAME_28': 'Error: XML File not found', 'SHEET_NAME_29': 'Error: XML File not found', 'SHEET_NAME_3': 'Error: XML File not found', 'SHEET_NAME_30': 'Error: XML File not found', 'SHEET_NAME_31': 'Error: XML File not found', 'SHEET_NAME_32': 'Error: XML File not found', 'SHEET_NAME_33': 'Error: XML File not found', 'SHEET_NAME_34': 'Error: XML File not found', 'SHEET_NAME_35': 'Error: XML File not found', 'SHEET_NAME_36': 'Error: XML File not found', 'SHEET_NAME_37': 'Error: XML File not found', 'SHEET_NAME_38': 'Error: XML File not found', 'SHEET_NAME_39': 'Error: XML File not found', 'SHEET_NAME_4': 'Error: XML File not found', 'SHEET_NAME_40': 'Error: XML File not found', 'SHEET_NAME_5': 'Error: XML File not found', 'SHEET_NAME_6': 'Error: XML File not found', 'SHEET_NAME_7': 'Error: XML File not found', 'SHEET_NAME_8': 'Error: XML File not found', 'SHEET_NAME_9': 'Error: XML File not found'} (kibot - pre_set_text_variables.py:184)
+DEBUG:- New list of variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'BATTERY_INTERFACE_BOARD', 'BRANCH': 'dev', 'BUILD_VARIANT': 'DRAFT', 'COMPANY': 'Blue Devil Motor Sports', 'DESCRIPTION': 'This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.', 'DESIGNER': 'Aidan Brzezinski', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': 'e8cfea9', 'GIT_HASH_SCH': 'efd0906', 'GIT_URL': 'https://github.com/BDMPowertrain/battery_interface_board', 'PROJECT_NAME': 'Battery Interface Board', 'RELEASE_BODY_1.0.0': '', 'RELEASE_BODY_1.0.1': '', 'RELEASE_BODY_1.0.2': '', 'RELEASE_BODY_1.1.0': '', 'RELEASE_BODY_UNRELEASED': 'Version Unreleased not found.', 'RELEASE_DATE': '15-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-15', 'RELEASE_TITLE_1.0.0': '', 'RELEASE_TITLE_1.0.1': '', 'RELEASE_TITLE_1.0.2': '', 'RELEASE_TITLE_1.1.0': '', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased not found.', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Error: XML File not found', 'SHEET_NAME_11': 'Error: XML File not found', 'SHEET_NAME_12': 'Error: XML File not found', 'SHEET_NAME_13': 'Error: XML File not found', 'SHEET_NAME_14': 'Error: XML File not found', 'SHEET_NAME_15': 'Error: XML File not found', 'SHEET_NAME_16': 'Error: XML File not found', 'SHEET_NAME_17': 'Error: XML File not found', 'SHEET_NAME_18': 'Error: XML File not found', 'SHEET_NAME_19': 'Error: XML File not found', 'SHEET_NAME_2': 'Error: XML File not found', 'SHEET_NAME_20': 'Error: XML File not found', 'SHEET_NAME_21': 'Error: XML File not found', 'SHEET_NAME_22': 'Error: XML File not found', 'SHEET_NAME_23': 'Error: XML File not found', 'SHEET_NAME_24': 'Error: XML File not found', 'SHEET_NAME_25': 'Error: XML File not found', 'SHEET_NAME_26': 'Error: XML File not found', 'SHEET_NAME_27': 'Error: XML File not found', 'SHEET_NAME_28': 'Error: XML File not found', 'SHEET_NAME_29': 'Error: XML File not found', 'SHEET_NAME_3': 'Error: XML File not found', 'SHEET_NAME_30': 'Error: XML File not found', 'SHEET_NAME_31': 'Error: XML File not found', 'SHEET_NAME_32': 'Error: XML File not found', 'SHEET_NAME_33': 'Error: XML File not found', 'SHEET_NAME_34': 'Error: XML File not found', 'SHEET_NAME_35': 'Error: XML File not found', 'SHEET_NAME_36': 'Error: XML File not found', 'SHEET_NAME_37': 'Error: XML File not found', 'SHEET_NAME_38': 'Error: XML File not found', 'SHEET_NAME_39': 'Error: XML File not found', 'SHEET_NAME_4': 'Error: XML File not found', 'SHEET_NAME_40': 'Error: XML File not found', 'SHEET_NAME_5': 'Error: XML File not found', 'SHEET_NAME_6': 'Error: XML File not found', 'SHEET_NAME_7': 'Error: XML File not found', 'SHEET_NAME_8': 'Error: XML File not found', 'SHEET_NAME_9': 'Error: XML File not found'} (kibot - pre_set_text_variables.py:184)
 DEBUG:Forcing PCB text variables reset (kibot - pre_set_text_variables.py:195)
 DEBUG:Preflight apply update_xml (kibot.pre_base - pre_base.py:161)
 DEBUG:Preflight run update_xml (kibot.pre_base - pre_base.py:165)
@@ -3790,9 +3790,9 @@ DEBUG:Removing temporal files (kibot.pre_base - pre_base.py:275)
 DEBUG:Preflight run set_text_variables (kibot.pre_base - pre_base.py:165)
 DEBUG:Outputs after preflights: ['png_3d_viewer_angled_top', 'png_3d_viewer_angled_bottom', 'md_readme'] (kibot - kiplot.py:855)
 DEBUG:Outputs after sorting: ['png_3d_viewer_angled_top', 'png_3d_viewer_angled_bottom', 'md_readme'] (kibot - kiplot.py:859)
-DEBUG:Current PCB text variables cache: [(wxString('ASSEMBLY_NOTES'), wxString('')), (wxString('BOARD_NAME'), wxString('BOARD_NAME')), (wxString('BUILD_VARIANT'), wxString('DRAFT')), (wxString('COMPANY'), wxString('Blue Devil Motor Sports')), (wxString('DESCRIPTION'), wxString('One-line description of what this board does.')), (wxString('DESIGNER'), wxString('Author')), (wxString('FABRICATION_NOTES'), wxString('')), (wxString('GIT_HASH_PCB'), wxString('18b8740')), (wxString('GIT_HASH_SCH'), wxString('18b8740')), (wxString('GIT_URL'), wxString('https://github.com/BDMPowertrain/PLACEHOLDER')), (wxString('PROJECT_NAME'), wxString('Board Name')), (wxString('RELEASE_BODY_1.0.0'), wxString('')), (wxString('RELEASE_BODY_1.0.1'), wxString('')), (wxString('RELEASE_BODY_1.0.2'), wxString('')), (wxString('RELEASE_BODY_1.1.0'), wxString('')), (wxString('RELEASE_BODY_UNRELEASED'), wxString('Version Unreleased not found.')), (wxString('RELEASE_DATE'), wxString('09-Sep-2026')), (wxString('RELEASE_DATE_NUM'), wxString('2026-09-09')), (wxString('RELEASE_TITLE_1.0.0'), wxString('')), (wxString('RELEASE_TITLE_1.0.1'), wxString('')), (wxString('RELEASE_TITLE_1.0.2'), wxString('')), (wxString('RELEASE_TITLE_1.1.0'), wxString('')), (wxString('RELEASE_TITLE_UNRELEASED'), wxString('Version Unreleased not found.')), (wxString('REVISION'), wxString('0.1.0')), (wxString('SHEET_NAME_1'), wxString('Cover Page')), (wxString('SHEET_NAME_10'), wxString('......................................')), (wxString('SHEET_NAME_11'), wxString('......................................')), (wxString('SHEET_NAME_12'), wxString('......................................')), (wxString('SHEET_NAME_13'), wxString('......................................')), (wxString('SHEET_NAME_14'), wxString('......................................')), (wxString('SHEET_NAME_15'), wxString('......................................')), (wxString('SHEET_NAME_16'), wxString('......................................')), (wxString('SHEET_NAME_17'), wxString('......................................')), (wxString('SHEET_NAME_18'), wxString('......................................')), (wxString('SHEET_NAME_19'), wxString('......................................')), (wxString('SHEET_NAME_2'), wxString('Block Diagram')), (wxString('SHEET_NAME_20'), wxString('......................................')), (wxString('SHEET_NAME_21'), wxString('......................................')), (wxString('SHEET_NAME_22'), wxString('......................................')), (wxString('SHEET_NAME_23'), wxString('......................................')), (wxString('SHEET_NAME_24'), wxString('......................................')), (wxString('SHEET_NAME_25'), wxString('......................................')), (wxString('SHEET_NAME_26'), wxString('......................................')), (wxString('SHEET_NAME_27'), wxString('......................................')), (wxString('SHEET_NAME_28'), wxString('......................................')), (wxString('SHEET_NAME_29'), wxString('......................................')), (wxString('SHEET_NAME_3'), wxString('Project Architecture')), (wxString('SHEET_NAME_30'), wxString('......................................')), (wxString('SHEET_NAME_31'), wxString('......................................')), (wxString('SHEET_NAME_32'), wxString('......................................')), (wxString('SHEET_NAME_33'), wxString('......................................')), (wxString('SHEET_NAME_34'), wxString('......................................')), (wxString('SHEET_NAME_35'), wxString('......................................')), (wxString('SHEET_NAME_36'), wxString('......................................')), (wxString('SHEET_NAME_37'), wxString('......................................')), (wxString('SHEET_NAME_38'), wxString('......................................')), (wxString('SHEET_NAME_39'), wxString('......................................')), (wxString('SHEET_NAME_4'), wxString('Section A - Title A')), (wxString('SHEET_NAME_40'), wxString('......................................')), (wxString('SHEET_NAME_5'), wxString('Section B - Title B')), (wxString('SHEET_NAME_6'), wxString('Power - Sequencing')), (wxString('SHEET_NAME_7'), wxString('Revision History')), (wxString('SHEET_NAME_8'), wxString('......................................')), (wxString('SHEET_NAME_9'), wxString('......................................'))] (kibot - kiplot.py:292)
+DEBUG:Current PCB text variables cache: [(wxString('ASSEMBLY_NOTES'), wxString('')), (wxString('BOARD_NAME'), wxString('BATTERY_INTERFACE_BOARD')), (wxString('BRANCH'), wxString('dev')), (wxString('BUILD_VARIANT'), wxString('DRAFT')), (wxString('COMPANY'), wxString('Blue Devil Motor Sports')), (wxString('DESCRIPTION'), wxString('This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.')), (wxString('DESIGNER'), wxString('Aidan Brzezinski')), (wxString('FABRICATION_NOTES'), wxString('')), (wxString('GIT_HASH_PCB'), wxString('efd0906')), (wxString('GIT_HASH_SCH'), wxString('efd0906')), (wxString('GIT_URL'), wxString('https://github.com/BDMPowertrain/battery_interface_board')), (wxString('PROJECT_NAME'), wxString('Battery Interface Board')), (wxString('RELEASE_BODY_1.0.0'), wxString('')), (wxString('RELEASE_BODY_1.0.1'), wxString('')), (wxString('RELEASE_BODY_1.0.2'), wxString('')), (wxString('RELEASE_BODY_1.1.0'), wxString('')), (wxString('RELEASE_BODY_UNRELEASED'), wxString('Version Unreleased not found.')), (wxString('RELEASE_DATE'), wxString('13-Oct-2026')), (wxString('RELEASE_DATE_NUM'), wxString('2026-10-13')), (wxString('RELEASE_TITLE_1.0.0'), wxString('')), (wxString('RELEASE_TITLE_1.0.1'), wxString('')), (wxString('RELEASE_TITLE_1.0.2'), wxString('')), (wxString('RELEASE_TITLE_1.1.0'), wxString('')), (wxString('RELEASE_TITLE_UNRELEASED'), wxString('Version Unreleased not found.')), (wxString('REVISION'), wxString('+ (Unreleased)')), (wxString('SHEET_NAME_1'), wxString('Cover Page')), (wxString('SHEET_NAME_10'), wxString('......................................')), (wxString('SHEET_NAME_11'), wxString('......................................')), (wxString('SHEET_NAME_12'), wxString('......................................')), (wxString('SHEET_NAME_13'), wxString('......................................')), (wxString('SHEET_NAME_14'), wxString('......................................')), (wxString('SHEET_NAME_15'), wxString('......................................')), (wxString('SHEET_NAME_16'), wxString('......................................')), (wxString('SHEET_NAME_17'), wxString('......................................')), (wxString('SHEET_NAME_18'), wxString('......................................')), (wxString('SHEET_NAME_19'), wxString('......................................')), (wxString('SHEET_NAME_2'), wxString('Block Diagram')), (wxString('SHEET_NAME_20'), wxString('......................................')), (wxString('SHEET_NAME_21'), wxString('......................................')), (wxString('SHEET_NAME_22'), wxString('......................................')), (wxString('SHEET_NAME_23'), wxString('......................................')), (wxString('SHEET_NAME_24'), wxString('......................................')), (wxString('SHEET_NAME_25'), wxString('......................................')), (wxString('SHEET_NAME_26'), wxString('......................................')), (wxString('SHEET_NAME_27'), wxString('......................................')), (wxString('SHEET_NAME_28'), wxString('......................................')), (wxString('SHEET_NAME_29'), wxString('......................................')), (wxString('SHEET_NAME_3'), wxString('Project Architecture')), (wxString('SHEET_NAME_30'), wxString('......................................')), (wxString('SHEET_NAME_31'), wxString('......................................')), (wxString('SHEET_NAME_32'), wxString('......................................')), (wxString('SHEET_NAME_33'), wxString('......................................')), (wxString('SHEET_NAME_34'), wxString('......................................')), (wxString('SHEET_NAME_35'), wxString('......................................')), (wxString('SHEET_NAME_36'), wxString('......................................')), (wxString('SHEET_NAME_37'), wxString('......................................')), (wxString('SHEET_NAME_38'), wxString('......................................')), (wxString('SHEET_NAME_39'), wxString('......................................')), (wxString('SHEET_NAME_4'), wxString('Connectors')), (wxString('SHEET_NAME_40'), wxString('......................................')), (wxString('SHEET_NAME_5'), wxString('Cell Taps')), (wxString('SHEET_NAME_6'), wxString('Revision History')), (wxString('SHEET_NAME_7'), wxString('......................................')), (wxString('SHEET_NAME_8'), wxString('......................................')), (wxString('SHEET_NAME_9'), wxString('......................................'))] (kibot - kiplot.py:292)
 DEBUG:Removing cached text variables (kibot - kiplot.py:301)
-DEBUG:Saving PCB file to `/github/workspace/battery_interface_board.kicad_pcb` (kibot.gs - gs.py:1570)
+DEBUG:Saving PCB file to `/github/workspace/battery_interface_board.kicad_pcb` (kibot.gs - gs.py:1575)
 DEBUG:Reloading the PCB to workaround KiCad bug #14360 (kibot - kiplot.py:307)
 DEBUG:Board loaded (kibot - kiplot.py:339)
 DEBUG:Using global `output`=`%f-%i%I%v.%x` (kibot - optionable.py:58)
@@ -3804,25 +3804,25 @@ DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:3
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d]
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411f077380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117f37380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411f077380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
-DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:636)
-DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:636)
-DEBUG:PCB title: `battery_interface_board` (kibot.gs - gs.py:679)
-DEBUG:PCB date: `2026-10-12` (kibot.gs - gs.py:680)
-DEBUG:PCB revision: `+ (Unreleased)` (kibot.gs - gs.py:681)
-DEBUG:PCB company: `Blue Devil Motor Sports` (kibot.gs - gs.py:682)
-DEBUG:PCB comment 1: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 2: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 3: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 4: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 5: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 6: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 7: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 8: `` (kibot.gs - gs.py:684)
-DEBUG:PCB comment 9: `` (kibot.gs - gs.py:684)
+DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117f37380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
+DEBUG:Replacing KiCad text variables: ${COMPANY} -> Blue Devil Motor Sports (kibot.gs - gs.py:641)
+DEBUG:PCB title: `battery_interface_board` (kibot.gs - gs.py:684)
+DEBUG:PCB date: `2026-10-12` (kibot.gs - gs.py:685)
+DEBUG:PCB revision: `+ (Unreleased)` (kibot.gs - gs.py:686)
+DEBUG:PCB company: `Blue Devil Motor Sports` (kibot.gs - gs.py:687)
+DEBUG:PCB comment 1: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 2: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 3: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 4: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 5: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 6: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 7: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 8: `` (kibot.gs - gs.py:689)
+DEBUG:PCB comment 9: `` (kibot.gs - gs.py:689)
 DEBUG:Expanded `battery_interface_board-angled_top.png` (kibot - optionable.py:554)
 DEBUG:Before collapse: (kibot - v5_sch.py:1729)
 DEBUG:After collapse: (kibot - v5_sch.py:1771)
@@ -4053,10 +4053,10 @@ DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/1.0.0_brass_bushing.STEP ->
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/0451.500MRL.STEP -> /github/workspace/RemoteLibrary/remote_3d/0451.500MRL.STEP (kibot - out_base_3d.py:93)
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/430450409.stp -> /github/workspace/RemoteLibrary/remote_3d/430450409.stp (kibot - out_base_3d.py:93)
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/0451.500MRL.STEP -> /github/workspace/RemoteLibrary/remote_3d/0451.500MRL.STEP (kibot - out_base_3d.py:93)
-DEBUG:Writing modified PCB to /github/workspace/kibot_a2q1l54f.kicad_pcb (kibot - gs.py:1543)
-DEBUG:Copying project `/github/workspace/battery_interface_board.kicad_pro` to `/github/workspace/kibot_a2q1l54f.kicad_pro` (kibot.gs - gs.py:708)
-DEBUG:Copying project local settings `/github/workspace/battery_interface_board.kicad_prl` to `/github/workspace/kibot_a2q1l54f.kicad_prl` (kibot.gs - gs.py:716)
-DEBUG:Copying project custom design rules `/github/workspace/battery_interface_board.kicad_dru` to `/github/workspace/kibot_a2q1l54f.kicad_dru` (kibot.gs - gs.py:724)
+DEBUG:Writing modified PCB to /github/workspace/kibot_2ynwwj75.kicad_pcb (kibot - gs.py:1548)
+DEBUG:Copying project `/github/workspace/battery_interface_board.kicad_pro` to `/github/workspace/kibot_2ynwwj75.kicad_pro` (kibot.gs - gs.py:713)
+DEBUG:Copying project local settings `/github/workspace/battery_interface_board.kicad_prl` to `/github/workspace/kibot_2ynwwj75.kicad_prl` (kibot.gs - gs.py:721)
+DEBUG:Copying project custom design rules `/github/workspace/battery_interface_board.kicad_dru` to `/github/workspace/kibot_2ynwwj75.kicad_dru` (kibot.gs - gs.py:729)
 DEBUG:Restoring paste, mask and/or glue (kibot - out_base.py:623)
 DEBUG:Enable 3D models that aren't for this variant (kibot - out_base.py:873)
 DEBUG:- Processing module F9 (kibot - out_base.py:878)
@@ -4084,7 +4084,7 @@ DEBUG:- Processing module J8 (kibot - out_base.py:878)
 DEBUG:- Processing module F7 (kibot - out_base.py:878)
 DEBUG:- Processing module J12 (kibot - out_base.py:878)
 DEBUG:- Processing module F1 (kibot - out_base.py:878)
-DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/battery_interface_board-angled_top.png --width 2016 --height 2016 --side top --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,-10 /github/workspace/kibot_a2q1l54f.kicad_pcb (kibot - kiplot.py:162)
+DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/battery_interface_board-angled_top.png --width 2016 --height 2016 --side top --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,-10 /github/workspace/kibot_2ynwwj75.kicad_pcb (kibot - kiplot.py:162)
 DEBUG:- Output from command: Loading…
 Build board outline
 
@@ -4156,99 +4156,59 @@ Build BVH for holes and vias
 Load Raytracing: board
 Load Raytracing: layers
 Loading 3D models...
-Reload time 0.561 s
-Rendering: 1 %
-Rendering: 2 %
-Rendering: 4 %
+Reload time 0.590 s
+Rendering: 3 %
 Rendering: 5 %
-Rendering: 7 %
 Rendering: 8 %
-Rendering: 10 %
 Rendering: 11 %
-Rendering: 12 %
 Rendering: 14 %
-Rendering: 15 %
-Rendering: 17 %
-Rendering: 17 %
+Rendering: 16 %
 Rendering: 18 %
-Rendering: 19 %
 Rendering: 20 %
 Rendering: 21 %
-Rendering: 22 %
-Rendering: 23 %
-Rendering: 25 %
-Rendering: 26 %
+Rendering: 24 %
 Rendering: 27 %
 Rendering: 28 %
-Rendering: 28 %
 Rendering: 29 %
-Rendering: 30 %
 Rendering: 32 %
-Rendering: 33 %
 Rendering: 34 %
-Rendering: 36 %
 Rendering: 37 %
-Rendering: 38 %
 Rendering: 40 %
-Rendering: 41 %
-Rendering: 43 %
-Rendering: 44 %
+Rendering: 42 %
 Rendering: 45 %
-Rendering: 47 %
 Rendering: 48 %
 Rendering: 49 %
-Rendering: 50 %
-Rendering: 50 %
 Rendering: 51 %
-Rendering: 52 %
 Rendering: 53 %
 Rendering: 55 %
-Rendering: 56 %
 Rendering: 58 %
-Rendering: 59 %
-Rendering: 60 %
-Rendering: 62 %
+Rendering: 61 %
 Rendering: 63 %
-Rendering: 65 %
 Rendering: 66 %
-Rendering: 67 %
 Rendering: 69 %
-Rendering: 70 %
-Rendering: 72 %
-Rendering: 73 %
-Rendering: 75 %
+Rendering: 71 %
+Rendering: 74 %
 Rendering: 76 %
-Rendering: 77 %
 Rendering: 78 %
-Rendering: 79 %
-Rendering: 80 %
 Rendering: 80 %
 Rendering: 81 %
-Rendering: 82 %
-Rendering: 83 %
 Rendering: 83 %
 Rendering: 84 %
-Rendering: 85 %
 Rendering: 87 %
-Rendering: 88 %
 Rendering: 89 %
-Rendering: 90 %
 Rendering: 92 %
-Rendering: 93 %
 Rendering: 95 %
-Rendering: 96 %
-Rendering: 97 %
-Rendering: 99 %
+Rendering: 98 %
 Rendering: 100 %
 Rendering: Post processing shader
-Rendering time 65.235 s
+Rendering time 33.745 s
 Successfully created 3D render image
  (kibot - kiplot.py:153)
 DEBUG:Removing temporal files (kibot - out_base.py:1256)
-DEBUG:- File `/github/workspace/kibot_a2q1l54f.kicad_pcb` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_a2q1l54f.kicad_pro` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_a2q1l54f.kicad_prl` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_a2q1l54f.kicad_dru` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_2ynwwj75.kicad_pcb` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_2ynwwj75.kicad_pro` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_2ynwwj75.kicad_prl` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_2ynwwj75.kicad_dru` (kibot - out_base.py:1259)
 DEBUG:- Executing: /usr/bin/convert /github/workspace/Images/battery_interface_board-angled_top.png -trim +repage -trim +repage /github/workspace/Images/battery_interface_board-angled_top.png (kibot - kiplot.py:162)
 DEBUG:Using global `output`=`%f-%i%I%v.%x` (kibot - optionable.py:58)
 DEBUG:Using global `variant`=`DRAFT` (kibot - optionable.py:58)
@@ -4259,10 +4219,10 @@ DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:3
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d]
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411eee6710> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117d92350> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411eee6710> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117d92350> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `battery_interface_board-angled_bottom.png` (kibot - optionable.py:554)
 DEBUG:Before collapse: (kibot - v5_sch.py:1729)
 DEBUG:After collapse: (kibot - v5_sch.py:1771)
@@ -4395,10 +4355,10 @@ DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/1.0.0_brass_bushing.STEP ->
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/0451.500MRL.STEP -> /github/workspace/RemoteLibrary/remote_3d/0451.500MRL.STEP (kibot - out_base_3d.py:93)
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/430450409.stp -> /github/workspace/RemoteLibrary/remote_3d/430450409.stp (kibot - out_base_3d.py:93)
 DEBUG:- Expanded ${KIPRJMOD}/RemoteLibrary/remote_3d/0451.500MRL.STEP -> /github/workspace/RemoteLibrary/remote_3d/0451.500MRL.STEP (kibot - out_base_3d.py:93)
-DEBUG:Writing modified PCB to /github/workspace/kibot_1hmih_16.kicad_pcb (kibot - gs.py:1543)
-DEBUG:Copying project `/github/workspace/battery_interface_board.kicad_pro` to `/github/workspace/kibot_1hmih_16.kicad_pro` (kibot.gs - gs.py:708)
-DEBUG:Copying project local settings `/github/workspace/battery_interface_board.kicad_prl` to `/github/workspace/kibot_1hmih_16.kicad_prl` (kibot.gs - gs.py:716)
-DEBUG:Copying project custom design rules `/github/workspace/battery_interface_board.kicad_dru` to `/github/workspace/kibot_1hmih_16.kicad_dru` (kibot.gs - gs.py:724)
+DEBUG:Writing modified PCB to /github/workspace/kibot_5ou2yeda.kicad_pcb (kibot - gs.py:1548)
+DEBUG:Copying project `/github/workspace/battery_interface_board.kicad_pro` to `/github/workspace/kibot_5ou2yeda.kicad_pro` (kibot.gs - gs.py:713)
+DEBUG:Copying project local settings `/github/workspace/battery_interface_board.kicad_prl` to `/github/workspace/kibot_5ou2yeda.kicad_prl` (kibot.gs - gs.py:721)
+DEBUG:Copying project custom design rules `/github/workspace/battery_interface_board.kicad_dru` to `/github/workspace/kibot_5ou2yeda.kicad_dru` (kibot.gs - gs.py:729)
 DEBUG:Restoring paste, mask and/or glue (kibot - out_base.py:623)
 DEBUG:Enable 3D models that aren't for this variant (kibot - out_base.py:873)
 DEBUG:- Processing module F9 (kibot - out_base.py:878)
@@ -4426,7 +4386,7 @@ DEBUG:- Processing module J8 (kibot - out_base.py:878)
 DEBUG:- Processing module F7 (kibot - out_base.py:878)
 DEBUG:- Processing module J12 (kibot - out_base.py:878)
 DEBUG:- Processing module F1 (kibot - out_base.py:878)
-DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/battery_interface_board-angled_bottom.png --width 2016 --height 2016 --side bottom --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,10 /github/workspace/kibot_1hmih_16.kicad_pcb (kibot - kiplot.py:162)
+DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/battery_interface_board-angled_bottom.png --width 2016 --height 2016 --side bottom --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,10 /github/workspace/kibot_5ou2yeda.kicad_pcb (kibot - kiplot.py:162)
 DEBUG:- Output from command: Loading…
 Build board outline
 
@@ -4498,105 +4458,61 @@ Build BVH for holes and vias
 Load Raytracing: board
 Load Raytracing: layers
 Loading 3D models...
-Reload time 0.070 s
-Rendering: 1 %
+Reload time 0.067 s
 Rendering: 3 %
-Rendering: 4 %
-Rendering: 6 %
-Rendering: 7 %
+Rendering: 5 %
 Rendering: 8 %
-Rendering: 10 %
 Rendering: 11 %
-Rendering: 12 %
 Rendering: 14 %
-Rendering: 15 %
 Rendering: 16 %
-Rendering: 17 %
-Rendering: 18 %
 Rendering: 18 %
 Rendering: 19 %
 Rendering: 20 %
-Rendering: 20 %
-Rendering: 21 %
-Rendering: 22 %
-Rendering: 24 %
+Rendering: 23 %
 Rendering: 25 %
-Rendering: 26 %
-Rendering: 27 %
 Rendering: 27 %
 Rendering: 28 %
-Rendering: 29 %
 Rendering: 30 %
-Rendering: 31 %
-Rendering: 32 %
 Rendering: 33 %
-Rendering: 35 %
 Rendering: 36 %
-Rendering: 37 %
-Rendering: 39 %
-Rendering: 40 %
-Rendering: 42 %
-Rendering: 43 %
+Rendering: 38 %
+Rendering: 41 %
 Rendering: 44 %
-Rendering: 46 %
 Rendering: 47 %
-Rendering: 48 %
 Rendering: 49 %
-Rendering: 50 %
 Rendering: 51 %
-Rendering: 52 %
 Rendering: 53 %
-Rendering: 54 %
-Rendering: 56 %
-Rendering: 57 %
-Rendering: 59 %
-Rendering: 60 %
+Rendering: 55 %
+Rendering: 58 %
 Rendering: 61 %
-Rendering: 63 %
 Rendering: 64 %
-Rendering: 65 %
-Rendering: 67 %
-Rendering: 68 %
-Rendering: 70 %
-Rendering: 71 %
+Rendering: 66 %
+Rendering: 69 %
 Rendering: 72 %
 Rendering: 74 %
-Rendering: 75 %
-Rendering: 76 %
 Rendering: 77 %
 Rendering: 78 %
-Rendering: 78 %
-Rendering: 79 %
 Rendering: 80 %
 Rendering: 81 %
-Rendering: 82 %
-Rendering: 82 %
 Rendering: 83 %
-Rendering: 83 %
-Rendering: 84 %
 Rendering: 84 %
 Rendering: 85 %
-Rendering: 86 %
 Rendering: 87 %
-Rendering: 88 %
 Rendering: 89 %
-Rendering: 91 %
 Rendering: 92 %
 Rendering: 94 %
-Rendering: 95 %
-Rendering: 96 %
-Rendering: 98 %
-Rendering: 99 %
+Rendering: 97 %
+Rendering: 100 %
 Rendering: 100 %
 Rendering: Post processing shader
-Rendering time 69.546 s
+Rendering time 34.531 s
 Successfully created 3D render image
  (kibot - kiplot.py:153)
 DEBUG:Removing temporal files (kibot - out_base.py:1256)
-DEBUG:- File `/github/workspace/kibot_1hmih_16.kicad_pcb` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_1hmih_16.kicad_pro` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_1hmih_16.kicad_prl` (kibot - out_base.py:1259)
-DEBUG:- File `/github/workspace/kibot_1hmih_16.kicad_dru` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_5ou2yeda.kicad_pcb` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_5ou2yeda.kicad_pro` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_5ou2yeda.kicad_prl` (kibot - out_base.py:1259)
+DEBUG:- File `/github/workspace/kibot_5ou2yeda.kicad_dru` (kibot - out_base.py:1259)
 DEBUG:- Executing: /usr/bin/convert /github/workspace/Images/battery_interface_board-angled_bottom.png -trim +repage -trim +repage /github/workspace/Images/battery_interface_board-angled_bottom.png (kibot - kiplot.py:162)
 DEBUG:Using global `output`=`%f-%i%I%v.%x` (kibot - optionable.py:58)
 DEBUG:Using global `variant`=`DRAFT` (kibot - optionable.py:58)
@@ -4605,10 +4521,10 @@ DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:3
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'README file in Markdown format' (md_readme) [report]
-DEBUG:Expanding `/github/workspace/././` in PCB context for <kibot.out_report.ReportOptions object at 0x7f411f076e40> parent: 'README file in Markdown format' (md_readme) [report] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/././` in PCB context for <kibot.out_report.ReportOptions object at 0x7f6117f36e40> parent: 'README file in Markdown format' (md_readme) [report] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/././` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace (kibot - kiplot.py:704)
-DEBUG:Expanding `README.md` in PCB context for <kibot.out_report.ReportOptions object at 0x7f411f076e40> parent: 'README file in Markdown format' (md_readme) [report] (kibot - optionable.py:508)
+DEBUG:Expanding `README.md` in PCB context for <kibot.out_report.ReportOptions object at 0x7f6117f36e40> parent: 'README file in Markdown format' (md_readme) [report] (kibot - optionable.py:508)
 DEBUG:Expanded `README.md` (kibot - optionable.py:554)
 DEBUG:Before collapse: (kibot - v5_sch.py:1729)
 DEBUG:After collapse: (kibot - v5_sch.py:1771)
@@ -4686,15 +4602,15 @@ DEBUG:Eurocircuits Drill class for `measured` is D because the drill is 0.3 (kib
 DEBUG:Eurocircuits Drill class for `defined` is D because the drill is 0.25 (kibot - out_report.py:113)
 DEBUG:Restoring paste, mask and/or glue (kibot - out_base.py:623)
 DEBUG:Report template: `kibot_resources/templates/readme.txt` (kibot - out_report.py:1095)
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411f077380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117f37380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411f077380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117f37380> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `battery_interface_board-angled_top.png` (kibot - optionable.py:554)
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411eee6710> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117d92350> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f411eee6710> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f6117d92350> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `battery_interface_board-angled_bottom.png` (kibot - optionable.py:554)
 DEBUG:Report output: `/github/workspace/README.md` (kibot - out_report.py:1128)
 Found 5 unique warning/s (15 total, 5 filtered)
