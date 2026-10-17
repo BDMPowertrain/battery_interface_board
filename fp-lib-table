@@ -6,4 +6,7 @@
 	(lib (name "remote_ipt1-115-01-l-d") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_ipt1-115-01-l-d.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0430450409") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_0430450409.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_ipt1-110-01-l-d") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_ipt1-110-01-l-d.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_9774140360r") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_9774140360r.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_bmd_logo") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_bmd_logo.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_sae_electric_logo") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_sae_electric_logo.pretty/") (options "") (descr "Remote download"))
 )

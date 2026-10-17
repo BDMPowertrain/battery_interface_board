@@ -846,7 +846,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "J1-18,F1-11,#PWR9,#PWR57-58",
+    "used_designators": "G1-2,MP1-6,J1-18,F1-11,#PWR9,#PWR57-58",
     "variants": []
   },
   "sheets": [
@@ -867,8 +867,8 @@
       "Connectors"
     ],
     [
-      "dfe2523f-0ef1-463c-b7b4-0d3b5205f0f8",
-      "Cell Taps"
+      "71b5462d-a58c-4d2e-8ed8-5c1dde81347b",
+      "Mechanical"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",

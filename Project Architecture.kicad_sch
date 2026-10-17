@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Project Architecture")
-		(date "2026-10-12")
+		(date "2026-10-16")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -35,7 +35,56 @@
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
 	(sheet
-		(at 167.64 68.58)
+		(at 160.02 71.12)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "71b5462d-a58c-4d2e-8ed8-5c1dde81347b")
+		(property "Sheetname" "Mechanical"
+			(at 160.02 70.0909 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical.kicad_sch"
+			(at 160.02 84.4046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 71.12)
 		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51,7 +100,7 @@
 		)
 		(uuid "caee5302-a3c3-4942-b6e3-790145ad87bf")
 		(property "Sheetname" "Connectors"
-			(at 167.64 67.5509 0)
+			(at 137.16 70.0909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64,7 +113,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 167.64 81.8646 0)
+			(at 137.16 84.4046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79,55 +128,6 @@
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 121.92 68.58)
-		(size 17.78 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "dfe2523f-0ef1-463c-b7b4-0d3b5205f0f8")
-		(property "Sheetname" "Cell Taps"
-			(at 121.92 67.5509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(thickness 0.381)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "celltaps.kicad_sch"
-			(at 121.92 81.8646 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "5")
 				)
 			)
 		)
