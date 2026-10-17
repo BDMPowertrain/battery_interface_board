@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-wnzdsaoa/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-reiav3wq/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,9 +23,9 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "e8cfea9")
+			(name "GIT_HASH_PCB") "a76a259")
 		(textvar
-			(name "GIT_HASH_SCH") "efd0906")
+			(name "GIT_HASH_SCH") "a76a259")
 		(textvar
 			(name "GIT_URL") "https://github.com/BDMPowertrain/battery_interface_board")
 		(textvar
@@ -45,9 +45,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "15-Oct-2026")
+			(name "RELEASE_DATE") "16-Oct-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-10-15")
+			(name "RELEASE_DATE_NUM") "2026-10-16")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -135,7 +135,7 @@
 		(textvar
 			(name "SHEET_NAME_40") "......................................")
 		(textvar
-			(name "SHEET_NAME_5") "Cell Taps")
+			(name "SHEET_NAME_5") "Mechanical")
 		(textvar
 			(name "SHEET_NAME_6") "Revision History")
 		(textvar
@@ -293,7 +293,7 @@
 			(name "/Project Architecture/Connectors/")
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			(title_block
-				(title)
+				(title "Connectors")
 				(company)
 				(rev)
 				(date "Date")
@@ -338,14 +338,14 @@
 		)
 		(sheet
 			(number "5")
-			(name "/Project Architecture/Cell Taps/")
-			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/dfe2523f-0ef1-463c-b7b4-0d3b5205f0f8/")
+			(name "/Project Architecture/Mechanical/")
+			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
 			(title_block
-				(title)
+				(title "Mechanical")
 				(company)
 				(rev)
 				(date "Date")
-				(source "celltaps.kicad_sch")
+				(source "mechanical.kicad_sch")
 				(comment
 					(number "1")
 					(value "")
@@ -3186,7 +3186,7 @@
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "9b2ee494-4ef0-4dee-9c02-0e601e7ed117")
+			(tstamps "a8ef460f-2ed5-423f-b9a4-004a407eb021")
 			(units
 				(unit
 					(name "A")
@@ -3847,6 +3847,1250 @@
 				)
 			)
 		)
+		(comp
+			(ref "G1")
+			(value "BMD Logo")
+			(footprint "remote_bmd_logo:BDM_Logo_20mm")
+			(datasheet "N/A")
+			(description "Blue Devil Motorsports silkscreen logo.")
+			(fields
+				(field
+					(name "Manufacturer") "BMD")
+				(field
+					(name "Manufacturer Part Number") "BMD Logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_bmd_logo:BDM_Logo_20mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Blue Devil Motorsports silkscreen logo.")
+			)
+			(libsource
+				(lib "remote_bmd_logo")
+				(part "BMD LOGO")
+				(description "Blue Devil Motorsports silkscreen logo.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BMD")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "BMD Logo")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "63cb8ed2-a77f-41c1-b040-9d393179d808")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "G2")
+			(value "SAE Electric logo")
+			(footprint "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+			(datasheet "N/A")
+			(description "SAE Electric logo.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "SAE Electric logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "SAE Electric logo.")
+			)
+			(libsource
+				(lib "remote_sae_electric_logo")
+				(part "LOGO")
+				(description "SAE Electric logo.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "SAE Electric logo")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "b38d3cc7-8783-40e1-96bc-074620c2fbf5")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "MP1")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "c773bdf5-712a-42c8-b657-91e63e7210d5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP2")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "e3dd07b0-b4c4-44bd-9c81-304a82cd1451")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP3")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "d6697a3e-94f6-4e47-b30b-dfd1efc30ee8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP4")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "93607716-811b-46a4-b2a5-11a0865b6ebc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP5")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "13854072-8b3d-4941-b036-b1fa49971227")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP6")
+			(value "9774140360R")
+			(footprint "remote_9774140360r:WA-SMSI_9774140360")
+			(datasheet "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(fields
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(libsource
+				(lib "remote_9774140360r")
+				(part "WA-SMSI_9774XXX360")
+				(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			)
+			(property
+				(name "THREAD")
+				(value "M3")
+			)
+			(property
+				(name "INNER-DIAMETER")
+				(value "4.2mm")
+			)
+			(property
+				(name "PIN-LENGTH")
+				(value "14mm")
+			)
+			(property
+				(name "INNER-THREAD-LENGTH")
+				(value "-")
+			)
+			(property
+				(name "DATASHEET-URL")
+				(value "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+			)
+			(property
+				(name "PART-NUMBER")
+				(value "9774140360R")
+			)
+			(property
+				(name "OUTER-DIAMETER")
+				(value "6mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Würth Elektronik")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "9774140360R")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
+			)
+			(tstamps "31fb4238-8056-4460-b22b-055af7e8f915")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
@@ -4002,6 +5246,131 @@
 					(num "2")
 					(name "")
 					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "remote_9774140360r")
+			(part "WA-SMSI_9774XXX360")
+			(description "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+			(docs "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+			(fields
+				(field
+					(name "Reference") "MP")
+				(field
+					(name "Value") "9774140360R")
+				(field
+					(name "Footprint") "remote_9774140360r:WA-SMSI_9774140360")
+				(field
+					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/9774140360R.pdf")
+				(field
+					(name "Description") "Round Standoff Threaded M3x0.5 Steel 0.551\" (14.00mm)")
+				(field
+					(name "THREAD") "M3")
+				(field
+					(name "INNER-DIAMETER") "4.2mm")
+				(field
+					(name "PIN-LENGTH") "14mm")
+				(field
+					(name "INNER-THREAD-LENGTH") "-")
+				(field
+					(name "DATASHEET-URL") "https://www.we-online.com/catalog/datasheet/9774140360R.pdf")
+				(field
+					(name "PART-NUMBER") "9774140360R")
+				(field
+					(name "OUTER-DIAMETER") "6mm")
+				(field
+					(name "Manufacturer") "Würth Elektronik")
+				(field
+					(name "Manufacturer Part Number") "9774140360R")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "remote_bmd_logo")
+			(part "BMD LOGO")
+			(description "Blue Devil Motorsports silkscreen logo.")
+			(docs "N/A")
+			(fields
+				(field
+					(name "Reference") "G")
+				(field
+					(name "Value") "BMD Logo")
+				(field
+					(name "Footprint") "remote_bmd_logo:BDM_Logo_20mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Blue Devil Motorsports silkscreen logo.")
+				(field
+					(name "Manufacturer") "BMD")
+				(field
+					(name "Manufacturer Part Number") "BMD Logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
 				)
 			)
 		)
@@ -4224,6 +5593,58 @@
 				)
 			)
 		)
+		(libpart
+			(lib "remote_sae_electric_logo")
+			(part "LOGO")
+			(description "SAE Electric logo.")
+			(docs "N/A")
+			(fields
+				(field
+					(name "Reference") "G")
+				(field
+					(name "Value") "SAE Electric logo")
+				(field
+					(name "Footprint") "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "SAE Electric logo.")
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "SAE Electric logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+		)
 	)
 	(libraries)
 	(nets
@@ -4392,8 +5813,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "01")
-				(pinfunction "01_01")
+				(pin "19")
+				(pinfunction "19_19")
 				(pintype "passive")
 			)
 		)
@@ -4408,8 +5829,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "03")
-				(pinfunction "03_03")
+				(pin "17")
+				(pinfunction "17_17")
 				(pintype "passive")
 			)
 		)
@@ -4424,8 +5845,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "05")
-				(pinfunction "05_05")
+				(pin "15")
+				(pinfunction "15_15")
 				(pintype "passive")
 			)
 		)
@@ -4440,8 +5861,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "07")
-				(pinfunction "07_07")
+				(pin "13")
+				(pinfunction "13_13")
 				(pintype "passive")
 			)
 		)
@@ -4456,8 +5877,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "09")
-				(pinfunction "09_09")
+				(pin "11")
+				(pinfunction "11_11")
 				(pintype "passive")
 			)
 		)
@@ -4472,8 +5893,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "11")
-				(pinfunction "11_11")
+				(pin "09")
+				(pinfunction "09_09")
 				(pintype "passive")
 			)
 		)
@@ -4488,8 +5909,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "13")
-				(pinfunction "13_13")
+				(pin "07")
+				(pinfunction "07_07")
 				(pintype "passive")
 			)
 		)
@@ -4504,8 +5925,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "15")
-				(pinfunction "15_15")
+				(pin "05")
+				(pinfunction "05_05")
 				(pintype "passive")
 			)
 		)
@@ -4520,8 +5941,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "17")
-				(pinfunction "17_17")
+				(pin "03")
+				(pinfunction "03_03")
 				(pintype "passive")
 			)
 		)
@@ -4536,8 +5957,8 @@
 			)
 			(node
 				(ref "J10")
-				(pin "19")
-				(pinfunction "19_19")
+				(pin "01")
+				(pinfunction "01_01")
 				(pintype "passive")
 			)
 		)
@@ -4547,8 +5968,8 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J10")
-				(pin "02")
-				(pinfunction "02_02")
+				(pin "20")
+				(pinfunction "20_20")
 				(pintype "passive")
 			)
 			(node
@@ -4602,133 +6023,173 @@
 		)
 		(net
 			(code "21")
-			(name "/Project Architecture/Connectors/T_P1")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "04")
-				(pinfunction "04_04")
-				(pintype "passive")
-			)
-			(node
-				(ref "J11")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "22")
-			(name "/Project Architecture/Connectors/T_P2")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "06")
-				(pinfunction "06_06")
-				(pintype "passive")
-			)
-			(node
-				(ref "J12")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "23")
-			(name "/Project Architecture/Connectors/T_P3")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "08")
-				(pinfunction "08_08")
-				(pintype "passive")
-			)
-			(node
-				(ref "J13")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "24")
-			(name "/Project Architecture/Connectors/T_P4")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "10")
-				(pinfunction "10_10")
-				(pintype "passive")
-			)
-			(node
-				(ref "J14")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "25")
-			(name "/Project Architecture/Connectors/T_P5")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "12")
-				(pinfunction "12_12")
-				(pintype "passive")
-			)
-			(node
-				(ref "J14")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "26")
-			(name "/Project Architecture/Connectors/T_P6")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "14")
-				(pinfunction "14_14")
-				(pintype "passive")
-			)
-			(node
-				(ref "J13")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "27")
-			(name "/Project Architecture/Connectors/T_P7")
-			(class "TEMP,Default")
-			(node
-				(ref "J10")
-				(pin "16")
-				(pinfunction "16_16")
-				(pintype "passive")
-			)
-			(node
-				(ref "J12")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "28")
-			(name "/Project Architecture/Connectors/T_P8")
-			(class "TEMP,Default")
+			(name "/Project Architecture/Connectors/TMP1")
+			(class "Default")
 			(node
 				(ref "J10")
 				(pin "18")
 				(pinfunction "18_18")
 				(pintype "passive")
 			)
+		)
+		(net
+			(code "22")
+			(name "/Project Architecture/Connectors/TMP2")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/Project Architecture/Connectors/TMP3")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/Project Architecture/Connectors/TMP4")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/Project Architecture/Connectors/TMP5")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/Project Architecture/Connectors/TMP6")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "08")
+				(pinfunction "08_08")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/Project Architecture/Connectors/TMP7")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "06")
+				(pinfunction "06_06")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/Project Architecture/Connectors/TMP8")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "04")
+				(pinfunction "04_04")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/Project Architecture/Connectors/T_P1")
+			(class "TEMP,Default")
+			(node
+				(ref "J11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "30")
+			(name "/Project Architecture/Connectors/T_P2")
+			(class "TEMP,Default")
+			(node
+				(ref "J12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "31")
+			(name "/Project Architecture/Connectors/T_P3")
+			(class "TEMP,Default")
+			(node
+				(ref "J13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "32")
+			(name "/Project Architecture/Connectors/T_P4")
+			(class "TEMP,Default")
+			(node
+				(ref "J14")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "33")
+			(name "/Project Architecture/Connectors/T_P5")
+			(class "TEMP,Default")
+			(node
+				(ref "J14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "34")
+			(name "/Project Architecture/Connectors/T_P6")
+			(class "TEMP,Default")
+			(node
+				(ref "J13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "35")
+			(name "/Project Architecture/Connectors/T_P7")
+			(class "TEMP,Default")
+			(node
+				(ref "J12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "36")
+			(name "/Project Architecture/Connectors/T_P8")
+			(class "TEMP,Default")
 			(node
 				(ref "J11")
 				(pin "1")
@@ -4737,7 +6198,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "37")
 			(name "/Project Architecture/Connectors/VMODULE")
 			(class "TAP,Default")
 			(node
@@ -4747,13 +6208,13 @@
 			)
 			(node
 				(ref "J10")
-				(pin "20")
-				(pinfunction "20_20")
+				(pin "02")
+				(pinfunction "02_02")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "32")
+			(code "40")
 			(name "unconnected-(J11-MNT-Pad5)")
 			(class "Default")
 			(node
@@ -4764,7 +6225,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "41")
 			(name "unconnected-(J11-MNT-Pad6)")
 			(class "Default")
 			(node
@@ -4775,7 +6236,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "42")
 			(name "unconnected-(J12-MNT-Pad5)")
 			(class "Default")
 			(node
@@ -4786,7 +6247,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "43")
 			(name "unconnected-(J12-MNT-Pad6)")
 			(class "Default")
 			(node
@@ -4797,7 +6258,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "44")
 			(name "unconnected-(J13-MNT-Pad5)")
 			(class "Default")
 			(node
@@ -4808,7 +6269,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "45")
 			(name "unconnected-(J13-MNT-Pad6)")
 			(class "Default")
 			(node
@@ -4819,7 +6280,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "46")
 			(name "unconnected-(J14-MNT-Pad5)")
 			(class "Default")
 			(node
@@ -4830,7 +6291,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "47")
 			(name "unconnected-(J14-MNT-Pad6)")
 			(class "Default")
 			(node
@@ -4838,6 +6299,66 @@
 				(pin "6")
 				(pinfunction "MNT_6")
 				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(MP1-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP1")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(MP2-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP2")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(MP3-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP3")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(MP4-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP4")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(MP5-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP5")
+				(pin "1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(MP6-Pad1)")
+			(class "Default")
+			(node
+				(ref "MP6")
+				(pin "1")
+				(pintype "passive+no_connect")
 			)
 		)
 	)
