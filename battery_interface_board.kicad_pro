@@ -912,7 +912,7 @@
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "d7b1875",
-    "GIT_HASH_SCH": "d7b1875",
+    "GIT_HASH_SCH": "a342ac3",
     "GIT_URL": "https://github.com/BDMPowertrain/battery_interface_board",
     "PROJECT_NAME": "Battery Interface Board",
     "RELEASE_BODY_1.0.0": "",
