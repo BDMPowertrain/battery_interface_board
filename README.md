@@ -19,9 +19,9 @@
 ***
 
 <p align="center">
-  <img alt="3D Top Angled" src="Images/battery_interface_board-angled_top.png" width="45%">
+  <img alt="3D Top" src="Images/battery_interface_board-top.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3D Bottom Angled" src="Images/battery_interface_board-angled_bottom.png" width="45%">
+  <img alt="3D Bottom" src="Images/battery_interface_board-bottom.png" width="45%">
 </p>
 
 ***
@@ -44,14 +44,15 @@
 > conventions, PR etiquette, and what to do when something goes wrong), see
 > the [board_template README](https://github.com/BDMPowertrain/board_template#readme).
 
-**Change the variant** as the board moves through Design → Procurement →
-Fabrication:
+**Change the stage or board info** (title, description, designer, company,
+revision) — open the config menu and pick an option:
 
-    ./configure.sh --variant
+    py configure.py       # Windows (or double-click configure.py)
+    ./configure.py        # Linux/macOS
 
-**Change board metadata** (title, description, designer, company):
-
-    ./configure.sh
+Stages go DRAFT → PRELIMINARY → CHECKED as the board moves through Design →
+Procurement → Fabrication. `configure.py --check` validates the config
+before you push.
 
 RELEASED is never set by hand — push a version tag and CI produces it
 automatically:
