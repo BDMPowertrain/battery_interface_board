@@ -149,7 +149,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
@@ -653,6 +653,30 @@
       "/Project Architecture/Connectors/TEMP_RTN": [
         "TEMP"
       ],
+      "/Project Architecture/Connectors/TMP1": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP2": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP3": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP4": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP5": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP6": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP7": [
+        "TEMP"
+      ],
+      "/Project Architecture/Connectors/TMP8": [
+        "TEMP"
+      ],
       "/Project Architecture/Connectors/T_P1": [
         "TEMP"
       ],
@@ -679,6 +703,9 @@
       ],
       "/Project Architecture/Connectors/VMODULE": [
         "TAP"
+      ],
+      "/Project Architecture/Connectors/{TMP[1..8] TEMP_RTN}": [
+        "TEMP"
       ],
       "/Project Architecture/Connectors/{T_P[1..8] TEMP_RTN}": [
         "TEMP"
@@ -884,8 +911,8 @@
     "DESCRIPTION": "This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "a76a259",
-    "GIT_HASH_SCH": "a76a259",
+    "GIT_HASH_PCB": "e8cfea9",
+    "GIT_HASH_SCH": "efd0906",
     "GIT_URL": "https://github.com/BDMPowertrain/battery_interface_board",
     "PROJECT_NAME": "Battery Interface Board",
     "RELEASE_BODY_1.0.0": "",
@@ -893,8 +920,8 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "16-Oct-2026",
-    "RELEASE_DATE_NUM": "2026-10-16",
+    "RELEASE_DATE": "15-Oct-2026",
+    "RELEASE_DATE_NUM": "2026-10-15",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -936,7 +963,7 @@
     "SHEET_NAME_39": "......................................",
     "SHEET_NAME_4": "Connectors",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Mechanical",
+    "SHEET_NAME_5": "Cell Taps",
     "SHEET_NAME_6": "Revision History",
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",

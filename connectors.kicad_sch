@@ -2974,7 +2974,7 @@
 		)
 		(uuid "1ea33eaf-6962-42d4-8841-038b5794f385")
 	)
-	(label "T_P2"
+	(label "TMP2"
 		(at 243.84 76.2 180)
 		(effects
 			(font
@@ -3046,7 +3046,7 @@
 		)
 		(uuid "30789318-1098-44d7-b72a-6bda1403b411")
 	)
-	(label "T_P5"
+	(label "TMP5"
 		(at 243.84 119.38 180)
 		(effects
 			(font
@@ -3056,7 +3056,7 @@
 		)
 		(uuid "36e14a79-8b2f-4dc4-b208-311a04769c3c")
 	)
-	(label "{T_P[1..8] TEMP_RTN}"
+	(label "{TMP[1..8] TEMP_RTN}"
 		(at 208.28 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3089,7 +3089,7 @@
 		)
 		(uuid "38a3b86f-e4a7-4c7f-a97b-176d2f3afaa5")
 	)
-	(label "T_P1"
+	(label "TMP1"
 		(at 243.84 53.34 180)
 		(effects
 			(font
@@ -3165,7 +3165,7 @@
 			)
 		)
 	)
-	(label "T_P6"
+	(label "TMP6"
 		(at 243.84 96.52 180)
 		(effects
 			(font
@@ -3175,7 +3175,7 @@
 		)
 		(uuid "59e34ac4-628a-4140-abb2-88ced20410cc")
 	)
-	(label "T_P3"
+	(label "TMP3"
 		(at 243.84 99.06 180)
 		(effects
 			(font
@@ -3238,7 +3238,7 @@
 			)
 		)
 	)
-	(label "{T_P[1..8] TEMP_RTN}"
+	(label "{TMP[1..8] TEMP_RTN}"
 		(at 198.12 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3261,7 +3261,7 @@
 			)
 		)
 	)
-	(label "T_P4"
+	(label "TMP4"
 		(at 243.84 121.92 180)
 		(effects
 			(font
@@ -3333,7 +3333,7 @@
 		)
 		(uuid "96103674-b0bc-43bf-9e24-6f2b55bee89e")
 	)
-	(label "T_P7"
+	(label "TMP7"
 		(at 243.84 73.66 180)
 		(effects
 			(font
@@ -3506,7 +3506,7 @@
 		)
 		(uuid "d1562207-1cbe-4287-be0d-1d466f41763a")
 	)
-	(label "T_P8"
+	(label "TMP8"
 		(at 243.84 50.8 180)
 		(effects
 			(font

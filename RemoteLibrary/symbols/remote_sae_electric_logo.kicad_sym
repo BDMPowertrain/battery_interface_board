@@ -32,7 +32,7 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_sae_electric_logo:SAE_Electric_Logo_10mm"
+		(property "Footprint" "remote_sae_electric_logo:SAE_Electric_Logo_20mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
