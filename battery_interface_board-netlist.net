@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-c77yox_0/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-d81ayogn/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,9 +23,9 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "d7b1875")
+			(name "GIT_HASH_PCB") "fdbe346")
 		(textvar
-			(name "GIT_HASH_SCH") "a342ac3")
+			(name "GIT_HASH_SCH") "fdbe346")
 		(textvar
 			(name "GIT_URL") "https://github.com/BDMPowertrain/battery_interface_board")
 		(textvar
@@ -45,9 +45,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "29-Oct-2026")
+			(name "RELEASE_DATE") "30-Oct-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-10-29")
+			(name "RELEASE_DATE_NUM") "2026-10-30")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -1932,15 +1932,15 @@
 		)
 		(comp
 			(ref "J1")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+			(value "0436500412")
+			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
+			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
+					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "Step Bushing")
+					(name "Manufacturer Part Number") "0436500412")
 				(field
 					(name "Vendor")
 				)
@@ -1972,24 +1972,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
+					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
 				(field
-					(name "Datasheet") "N/A")
+					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+				(lib "remote_0436500412")
+				(part "0436500412")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
+				(value "Molex")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "Step Bushing")
+				(value "0436500412")
 			)
 			(property
 				(name "Vendor")
@@ -2039,17 +2039,36 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
+			(property
+				(name "ki_keywords")
+				(value "0436500412")
+			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "5dcec8c2-2eaf-480b-bfcf-be36f7403350")
+			(tstamps "65aeb985-eea2-4211-9975-1930ae4ef757")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
 						)
 					)
 				)
@@ -2057,15 +2076,15 @@
 		)
 		(comp
 			(ref "J2")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+			(value "0436500412")
+			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
+			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
+					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "Step Bushing")
+					(name "Manufacturer Part Number") "0436500412")
 				(field
 					(name "Vendor")
 				)
@@ -2097,24 +2116,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
+					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
 				(field
-					(name "Datasheet") "N/A")
+					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+				(lib "remote_0436500412")
+				(part "0436500412")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
+				(value "Molex")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "Step Bushing")
+				(value "0436500412")
 			)
 			(property
 				(name "Vendor")
@@ -2164,17 +2183,36 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
+			(property
+				(name "ki_keywords")
+				(value "0436500412")
+			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "cc49d699-440b-46db-a3bb-b8b9b937fdfd")
+			(tstamps "785e248b-d69a-48ec-817d-1bf34a51351c")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
 						)
 					)
 				)
@@ -2182,15 +2220,15 @@
 		)
 		(comp
 			(ref "J3")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+			(value "0436500412")
+			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
+			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
+					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "Step Bushing")
+					(name "Manufacturer Part Number") "0436500412")
 				(field
 					(name "Vendor")
 				)
@@ -2222,24 +2260,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
+					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
 				(field
-					(name "Datasheet") "N/A")
+					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+				(lib "remote_0436500412")
+				(part "0436500412")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
+				(value "Molex")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "Step Bushing")
+				(value "0436500412")
 			)
 			(property
 				(name "Vendor")
@@ -2289,17 +2327,36 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
+			(property
+				(name "ki_keywords")
+				(value "0436500412")
+			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "264ceb97-cc2e-41d1-9ac2-db93048ca718")
+			(tstamps "3fec1e2f-b7cf-422f-bd34-305f697ecafc")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
 						)
 					)
 				)
@@ -2307,15 +2364,15 @@
 		)
 		(comp
 			(ref "J4")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+			(value "0436500412")
+			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
+			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
+					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "Step Bushing")
+					(name "Manufacturer Part Number") "0436500412")
 				(field
 					(name "Vendor")
 				)
@@ -2347,24 +2404,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
+					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
 				(field
-					(name "Datasheet") "N/A")
+					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
+				(lib "remote_0436500412")
+				(part "0436500412")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
+				(value "Molex")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "Step Bushing")
+				(value "0436500412")
 			)
 			(property
 				(name "Vendor")
@@ -2414,11 +2471,15 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
+			(property
+				(name "ki_keywords")
+				(value "0436500412")
+			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "c8975021-1cc7-4155-b337-118e3628fa38")
+			(tstamps "d0920c09-e9ba-48e2-b61e-6adb8f7022ce")
 			(units
 				(unit
 					(name "A")
@@ -2426,630 +2487,20 @@
 						(pin
 							(num "1")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J5")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(fields
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "Step Bushing")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
-			)
-			(tstamps "740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J6")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(fields
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "Step Bushing")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
-			)
-			(tstamps "f6ea5ff6-a3bb-47c9-90df-059c0206a062")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "3")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J7")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(fields
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "Step Bushing")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
-			)
-			(tstamps "e2a57c8b-ec8f-4968-a98a-c0d741773808")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "4")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J8")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(fields
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "Step Bushing")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
-			)
-			(tstamps "af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "5")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J9")
-			(value "Step Bushing")
-			(footprint "remote_n_a:steped_bushing")
-			(datasheet "N/A")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(fields
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(libsource
-				(lib "remote_n_a")
-				(part "Steped_Bushing")
-				(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Blue Devil Motorsports")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "Step Bushing")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
-			)
-			(tstamps "07ac6637-5161-41e0-a9a7-cdafe152954f")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "6")
 						)
 					)
 				)
@@ -3256,16 +2707,16 @@
 			)
 		)
 		(comp
-			(ref "J11")
-			(value "0430450409")
-			(footprint "remote_0430450409:CONN_SD-43045-004_04_MOL")
-			(datasheet "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(ref "MP5")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "Manufacturer") "BDM")
 				(field
-					(name "Manufacturer Part Number") "0430450409")
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
 				(field
 					(name "Vendor")
 				)
@@ -3297,24 +2748,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0430450409:CONN_SD-43045-004_04_MOL")
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 				(field
-					(name "Datasheet") "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
+					(name "Datasheet") "N/A")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(libsource
-				(lib "remote_0430450409")
-				(part "430450409")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "BDM")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0430450409")
+				(value "Enepaq M5 Clamp")
 			)
 			(property
 				(name "Vendor")
@@ -3364,56 +2815,33 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "430450409")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "CONN_SD-43045-004_04_MOL")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762")
+			(tstamps "adafbe2c-3311-4eb7-8649-ec79dbefaa3c")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
 						)
 					)
 				)
 			)
 		)
 		(comp
-			(ref "J12")
-			(value "0430450409")
-			(footprint "remote_0430450409:CONN_SD-43045-004_04_MOL")
-			(datasheet "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(ref "MP6")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "Manufacturer") "BDM")
 				(field
-					(name "Manufacturer Part Number") "0430450409")
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
 				(field
 					(name "Vendor")
 				)
@@ -3445,24 +2873,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0430450409:CONN_SD-43045-004_04_MOL")
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 				(field
-					(name "Datasheet") "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
+					(name "Datasheet") "N/A")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(libsource
-				(lib "remote_0430450409")
-				(part "430450409")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "BDM")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0430450409")
+				(value "Enepaq M5 Clamp")
 			)
 			(property
 				(name "Vendor")
@@ -3512,56 +2940,33 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "430450409")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "CONN_SD-43045-004_04_MOL")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "af51e97f-8cd4-4aa9-9ba0-b9406ca632bb")
+			(tstamps "afc6e3f0-4039-4def-adfd-e85686fb2d2c")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
 						)
 					)
 				)
 			)
 		)
 		(comp
-			(ref "J13")
-			(value "0430450409")
-			(footprint "remote_0430450409:CONN_SD-43045-004_04_MOL")
-			(datasheet "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(ref "MP7")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "Manufacturer") "BDM")
 				(field
-					(name "Manufacturer Part Number") "0430450409")
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
 				(field
 					(name "Vendor")
 				)
@@ -3593,24 +2998,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0430450409:CONN_SD-43045-004_04_MOL")
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 				(field
-					(name "Datasheet") "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
+					(name "Datasheet") "N/A")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(libsource
-				(lib "remote_0430450409")
-				(part "430450409")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "BDM")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0430450409")
+				(value "Enepaq M5 Clamp")
 			)
 			(property
 				(name "Vendor")
@@ -3660,56 +3065,33 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "430450409")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "CONN_SD-43045-004_04_MOL")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "ea55c9f2-7951-40d5-959c-6554e343a694")
+			(tstamps "eec0f3af-21e5-44a6-8102-4f2d47b54656")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
 							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
 						)
 					)
 				)
 			)
 		)
 		(comp
-			(ref "J14")
-			(value "0430450409")
-			(footprint "remote_0430450409:CONN_SD-43045-004_04_MOL")
-			(datasheet "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(ref "MP8")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "Manufacturer") "BDM")
 				(field
-					(name "Manufacturer Part Number") "0430450409")
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
 				(field
 					(name "Vendor")
 				)
@@ -3741,24 +3123,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0430450409:CONN_SD-43045-004_04_MOL")
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 				(field
-					(name "Datasheet") "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
+					(name "Datasheet") "N/A")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(libsource
-				(lib "remote_0430450409")
-				(part "430450409")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "BDM")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0430450409")
+				(value "Enepaq M5 Clamp")
 			)
 			(property
 				(name "Vendor")
@@ -3808,19 +3190,11 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "430450409")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "CONN_SD-43045-004_04_MOL")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "4c711d44-0a96-4dca-85ec-03a0de842127")
+			(tstamps "7d98d49a-2c8b-4eac-b654-3f82994699be")
 			(units
 				(unit
 					(name "A")
@@ -3828,20 +3202,630 @@
 						(pin
 							(num "1")
 						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP9")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(libsource
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "Enepaq M5 Clamp")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
+			)
+			(tstamps "dd49d6f2-c8bd-4fa3-a395-0b9692747023")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
-							(num "2")
+							(num "1")
 						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP10")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(libsource
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "Enepaq M5 Clamp")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
+			)
+			(tstamps "f4bdad9b-4319-4e94-9a06-e4b812aa3753")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
-							(num "3")
+							(num "1")
 						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP11")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(libsource
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "Enepaq M5 Clamp")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
+			)
+			(tstamps "31715d2a-e90f-41af-bb1e-522af38abf4f")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
-							(num "4")
+							(num "1")
 						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP12")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(libsource
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "Enepaq M5 Clamp")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
+			)
+			(tstamps "c4baa2e2-b275-40da-8e2c-ec7c6f103232")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
-							(num "5")
+							(num "1")
 						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "MP13")
+			(value "Enepaq M5 Clamp")
+			(footprint "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+			(datasheet "N/A")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(libsource
+				(lib "remote_enepaq_m5_clamp")
+				(part "Enepaq_M5_Clamp")
+				(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "Enepaq M5 Clamp")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
+			)
+			(tstamps "6fed5a4f-9aa9-4a60-9969-132e56084218")
+			(units
+				(unit
+					(name "A")
+					(pins
 						(pin
-							(num "6")
+							(num "1")
 						)
 					)
 				)
@@ -4762,28 +4746,25 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "remote_0430450409")
-			(part "430450409")
+			(lib "remote_0436500412")
+			(part "0436500412")
 			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
-			(docs "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
-			(footprints
-				(fp "CONN_SD-43045-004_04_MOL")
-			)
+			(docs "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 			(fields
 				(field
-					(name "Reference") "J10")
+					(name "Reference") "J")
 				(field
-					(name "Value") "0430450409")
+					(name "Value") "0436500412")
 				(field
-					(name "Footprint") "remote_0430450409:CONN_SD-43045-004_04_MOL")
+					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
 				(field
-					(name "Datasheet") "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
+					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
 				(field
 					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
 				(field
 					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "0430450409")
+					(name "Manufacturer Part Number") "0436500412")
 				(field
 					(name "Vendor")
 				)
@@ -5041,6 +5022,65 @@
 			)
 		)
 		(libpart
+			(lib "remote_enepaq_m5_clamp")
+			(part "Enepaq_M5_Clamp")
+			(description "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+			(docs "N/A")
+			(fields
+				(field
+					(name "Reference") "MP")
+				(field
+					(name "Value") "Enepaq M5 Clamp")
+				(field
+					(name "Footprint") "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer.")
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "Enepaq M5 Clamp")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_ipt1-110-01-l-d")
 			(part "IPT1-110-01-L-D")
 			(description "Connector Header Through Hole 20 position 0.100\" (2.54mm)")
@@ -5201,65 +5241,6 @@
 			)
 		)
 		(libpart
-			(lib "remote_n_a")
-			(part "Steped_Bushing")
-			(description "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-			(docs "N/A")
-			(fields
-				(field
-					(name "Reference") "J")
-				(field
-					(name "Value") "Step Bushing")
-				(field
-					(name "Footprint") "remote_n_a:steped_bushing")
-				(field
-					(name "Datasheet") "N/A")
-				(field
-					(name "Description") "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD.")
-				(field
-					(name "Manufacturer") "Blue Devil Motorsports")
-				(field
-					(name "Manufacturer Part Number") "Step Bushing")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "input")
-				)
-			)
-		)
-		(libpart
 			(lib "remote_sae_electric_logo")
 			(part "LOGO")
 			(description "SAE Electric logo.")
@@ -5329,9 +5310,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J1")
+				(ref "MP5")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5345,9 +5325,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J2")
+				(ref "MP6")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5361,9 +5340,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J3")
+				(ref "MP7")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5377,9 +5355,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J4")
+				(ref "MP8")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5393,9 +5370,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J5")
+				(ref "MP9")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5409,9 +5385,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J6")
+				(ref "MP10")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5425,9 +5400,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J7")
+				(ref "MP11")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5441,9 +5415,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J8")
+				(ref "MP12")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5462,9 +5435,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J9")
+				(ref "MP13")
 				(pin "1")
-				(pinfunction "1_1")
 				(pintype "input")
 			)
 		)
@@ -5633,55 +5605,55 @@
 			(name "/Project Architecture/Connectors/TEMP_RTN")
 			(class "TEMP,Default")
 			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "unspecified")
+			)
+			(node
 				(ref "J10")
 				(pin "20")
 				(pinfunction "20_20")
 				(pintype "passive")
 			)
 			(node
-				(ref "J11")
+				(ref "J2")
 				(pin "3")
 				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J11")
+				(ref "J2")
 				(pin "4")
 				(pinfunction "4_4")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J12")
+				(ref "J3")
 				(pin "3")
 				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J12")
+				(ref "J3")
 				(pin "4")
 				(pinfunction "4_4")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J13")
+				(ref "J4")
 				(pin "3")
 				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J13")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "J14")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "J14")
+				(ref "J4")
 				(pin "4")
 				(pinfunction "4_4")
 				(pintype "unspecified")
@@ -5692,16 +5664,16 @@
 			(name "/Project Architecture/Connectors/TMP1")
 			(class "TEMP,Default")
 			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
 				(ref "J10")
 				(pin "18")
 				(pinfunction "18_18")
 				(pintype "passive")
-			)
-			(node
-				(ref "J11")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
 			)
 		)
 		(net
@@ -5715,7 +5687,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J12")
+				(ref "J2")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
@@ -5732,7 +5704,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J13")
+				(ref "J3")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
@@ -5749,7 +5721,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J14")
+				(ref "J4")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
@@ -5766,7 +5738,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J14")
+				(ref "J4")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -5783,7 +5755,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J13")
+				(ref "J3")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -5800,7 +5772,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J12")
+				(ref "J2")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -5811,16 +5783,16 @@
 			(name "/Project Architecture/Connectors/TMP8")
 			(class "TEMP,Default")
 			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
 				(ref "J10")
 				(pin "04")
 				(pinfunction "04_04")
 				(pintype "passive")
-			)
-			(node
-				(ref "J11")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
 			)
 		)
 		(net
@@ -5841,10 +5813,10 @@
 		)
 		(net
 			(code "32")
-			(name "unconnected-(J11-MNT-Pad5)")
+			(name "unconnected-(J1-MNT-Pad5)")
 			(class "Default")
 			(node
-				(ref "J11")
+				(ref "J1")
 				(pin "5")
 				(pinfunction "MNT_5")
 				(pintype "unspecified+no_connect")
@@ -5852,10 +5824,10 @@
 		)
 		(net
 			(code "33")
-			(name "unconnected-(J11-MNT-Pad6)")
+			(name "unconnected-(J1-MNT-Pad6)")
 			(class "Default")
 			(node
-				(ref "J11")
+				(ref "J1")
 				(pin "6")
 				(pinfunction "MNT_6")
 				(pintype "unspecified+no_connect")
@@ -5863,10 +5835,10 @@
 		)
 		(net
 			(code "34")
-			(name "unconnected-(J12-MNT-Pad5)")
+			(name "unconnected-(J2-MNT-Pad5)")
 			(class "Default")
 			(node
-				(ref "J12")
+				(ref "J2")
 				(pin "5")
 				(pinfunction "MNT_5")
 				(pintype "unspecified+no_connect")
@@ -5874,10 +5846,10 @@
 		)
 		(net
 			(code "35")
-			(name "unconnected-(J12-MNT-Pad6)")
+			(name "unconnected-(J2-MNT-Pad6)")
 			(class "Default")
 			(node
-				(ref "J12")
+				(ref "J2")
 				(pin "6")
 				(pinfunction "MNT_6")
 				(pintype "unspecified+no_connect")
@@ -5885,10 +5857,10 @@
 		)
 		(net
 			(code "36")
-			(name "unconnected-(J13-MNT-Pad5)")
+			(name "unconnected-(J3-MNT-Pad5)")
 			(class "Default")
 			(node
-				(ref "J13")
+				(ref "J3")
 				(pin "5")
 				(pinfunction "MNT_5")
 				(pintype "unspecified+no_connect")
@@ -5896,10 +5868,10 @@
 		)
 		(net
 			(code "37")
-			(name "unconnected-(J13-MNT-Pad6)")
+			(name "unconnected-(J3-MNT-Pad6)")
 			(class "Default")
 			(node
-				(ref "J13")
+				(ref "J3")
 				(pin "6")
 				(pinfunction "MNT_6")
 				(pintype "unspecified+no_connect")
@@ -5907,10 +5879,10 @@
 		)
 		(net
 			(code "38")
-			(name "unconnected-(J14-MNT-Pad5)")
+			(name "unconnected-(J4-MNT-Pad5)")
 			(class "Default")
 			(node
-				(ref "J14")
+				(ref "J4")
 				(pin "5")
 				(pinfunction "MNT_5")
 				(pintype "unspecified+no_connect")
@@ -5918,10 +5890,10 @@
 		)
 		(net
 			(code "39")
-			(name "unconnected-(J14-MNT-Pad6)")
+			(name "unconnected-(J4-MNT-Pad6)")
 			(class "Default")
 			(node
-				(ref "J14")
+				(ref "J4")
 				(pin "6")
 				(pinfunction "MNT_6")
 				(pintype "unspecified+no_connect")
