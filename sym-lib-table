@@ -9,4 +9,7 @@
 	(lib (name "remote_9774140360r") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_9774140360r.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_bmd_logo") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_bmd_logo.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_sae_electric_logo") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_sae_electric_logo.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_enepaq_m5_clamp") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_enepaq_m5_clamp.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_0436500400") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_0436500400.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_0436500412") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/symbols/remote_0436500412.kicad_sym") (options "") (descr "Remote download"))
 )

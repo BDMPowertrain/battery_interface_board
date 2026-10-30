@@ -9,7 +9,7 @@
 		(date "2026-10-16")
 	)
 	(lib_symbols
-		(symbol "remote_0430450409:430450409"
+		(symbol "remote_0436500412:0436500412"
 			(pin_names
 				(offset 0.254)
 			)
@@ -18,18 +18,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J10"
+			(property "Reference" "J"
 				(at 5.08 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(justify left)
 				)
 			)
-			(property "Value" "0430450409"
+			(property "Value" "0436500412"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -39,7 +39,7 @@
 					)
 				)
 			)
-			(property "Footprint" "remote_0430450409:CONN_SD-43045-004_04_MOL"
+			(property "Footprint" "remote_0436500412:CONN_SD-43650-005_04_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,7 +83,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "0430450409"
+			(property "Manufacturer Part Number" "0436500412"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "430450409"
+			(property "ki_keywords" "0436500412"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,18 +215,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SD-43045-004_04_MOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "430450409_1_1"
+			(symbol "0436500412_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 12.7 -15.24)
@@ -625,6 +614,232 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MP"
+				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Enepaq M5 Clamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "BDM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mass (g)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RQjC (C/W)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RQjC_top (C/W)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_max (C)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temp_min (C)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power Dissipation (W)" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rate" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SAP Code" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Enepaq_M5_Clamp_0_1"
+				(circle
+					(center 3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Enepaq_M5_Clamp_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1243,234 +1458,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "remote_n_a:Steped_Bushing"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Step Bushing"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "remote_n_a:steped_bushing"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "N/A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Blue Devil Motorsports"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "Step Bushing"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mass (g)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC_top (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_max (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_min (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power Dissipation (W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rate" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SAP Code" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Steped_Bushing_1_1"
-				(rectangle
-					(start 2.54 1.27)
-					(end 5.08 -1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 35.56 41.91)
+		(start 33.02 41.91)
 		(end 101.6 132.08)
 		(stroke
 			(width 0.254)
@@ -1592,18 +1582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20b6f3d6-c23b-418d-814a-aa50335d3388")
-	)
-	(junction
-		(at 48.26 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ec309df-9515-47eb-9dd6-f71628c2e05c")
-	)
-	(junction
-		(at 48.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff8c7216-560e-4b8d-b91d-1304516ed857")
 	)
 	(no_connect
 		(at 243.84 86.36)
@@ -2152,16 +2130,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 58.42) (xy 48.26 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f37aa1b-c16b-4371-a430-702f86d51dbe")
-	)
-	(wire
-		(pts
 			(xy 60.96 96.52) (xy 71.12 96.52)
 		)
 		(stroke
@@ -2172,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 55.88 127)
+			(xy 45.72 127) (xy 55.88 127)
 		)
 		(stroke
 			(width 0)
@@ -2252,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 50.8) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cf11c4-4323-479f-852c-cf03f5ddd1a1")
+	)
+	(wire
+		(pts
 			(xy 60.96 119.38) (xy 71.12 119.38)
 		)
 		(stroke
@@ -2312,7 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 48.26 58.42)
+			(xy 45.72 50.8) (xy 45.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2422,16 +2400,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 58.42) (xy 55.88 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8062e131-5625-4e6e-af95-50e1ffb4a7a7")
-	)
-	(wire
-		(pts
 			(xy 165.1 58.42) (xy 177.8 58.42)
 		)
 		(stroke
@@ -2509,6 +2477,16 @@
 			(type default)
 		)
 		(uuid "94ec2853-2d22-4c01-9474-910b44bb2d47")
+	)
+	(wire
+		(pts
+			(xy 45.72 58.42) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97788c13-bd86-40fe-9355-f3e3f0180b59")
 	)
 	(wire
 		(pts
@@ -2692,16 +2670,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 55.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91be0fd-bb62-4c81-a50d-093e7c8863dd")
-	)
-	(wire
-		(pts
 			(xy 60.96 81.28) (xy 71.12 81.28)
 		)
 		(stroke
@@ -2752,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 48.26 127)
+			(xy 45.72 119.38) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 48.26 119.38)
+			(xy 45.72 119.38) (xy 55.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2779,16 +2747,6 @@
 			(type default)
 		)
 		(uuid "e717c808-bcd1-4e26-a740-b8ef83e54a2b")
-	)
-	(wire
-		(pts
-			(xy 48.26 119.38) (xy 55.88 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e83434-3320-4bb0-b064-e3e15fdbe81c")
 	)
 	(wire
 		(pts
@@ -3611,214 +3569,6 @@
 		(uuid "f6e2d4e7-cf28-4d11-b873-d475063cc1f7")
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 119.38 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07ac6637-5161-41e0-a9a7-cdafe152954f")
-		(property "Reference" "J9"
-			(at 41.91 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Step Bushing"
-			(at 41.91 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "N/A"
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 45.72 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bd46944-ad90-4fb8-93c1-353db61075b1")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "remote_0451.500mrl:0451.500MRL")
 		(at 55.88 127 0)
 		(unit 1)
@@ -4241,8 +3991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 73.66 180)
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 104.14 180)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4250,9 +4000,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "264ceb97-cc2e-41d1-9ac2-db93048ca718")
-		(property "Reference" "J3"
-			(at 41.91 71.12 0)
+		(uuid "31715d2a-e90f-41af-bb1e-522af38abf4f")
+		(property "Reference" "MP11"
+			(at 41.91 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4261,8 +4011,8 @@
 				)
 			)
 		)
-		(property "Value" "Step Bushing"
-			(at 41.91 76.2 0)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4271,8 +4021,8 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 73.66 0)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4033,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,8 +4043,8 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 73.66 0)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,8 +4054,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 73.66 0)
+		(property "Manufacturer" "BDM"
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,8 +4065,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 73.66 0)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,7 +4077,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,7 +4088,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,7 +4099,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,7 +4110,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +4121,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,7 +4132,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4143,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,7 +4154,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,7 +4165,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4176,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 45.72 73.66 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4437,12 +4187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "40724a6f-5f63-408f-986e-ef4e32315d9d")
+			(uuid "481898d2-5c05-4973-8ad7-10f65a581803")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J3")
+					(reference "MP11")
 					(unit 1)
 				)
 			)
@@ -4660,18 +4410,30 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_0430450409:430450409")
-		(at 243.84 119.38 0)
+		(lib_id "remote_0436500412:0436500412")
+		(at 243.84 96.52 0)
 		(unit 1)
-		(body_style 1)
+		(body_style 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c711d44-0a96-4dca-85ec-03a0de842127")
-		(property "Reference" "J14"
-			(at 248.92 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "3fec1e2f-b7cf-422f-bd34-305f697ecafc")
+		(property "Reference" "J3"
+			(at 257.81 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0436500412"
+			(at 257.81 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4681,19 +4443,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0430450409"
-			(at 248.92 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_0430450409:CONN_SD-43045-004_04_MOL"
-			(at 243.84 119.38 0)
+		(property "Footprint" "remote_0436500412:CONN_SD-43650-005_04_MOL"
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,8 +4454,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 243.84 119.38 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf"
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4466,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4477,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,8 +4487,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0430450409"
-			(at 243.84 119.38 0)
+		(property "Manufacturer Part Number" "0436500412"
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4499,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4510,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +4521,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4532,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4792,7 +4543,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4803,7 +4554,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4814,7 +4565,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4825,7 +4576,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4587,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4598,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 243.84 119.38 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,35 +4609,35 @@
 			)
 		)
 		(pin "6"
-			(uuid "d84b058a-e3f7-4fab-aaaf-8c521c9b1226")
-		)
-		(pin "3"
-			(uuid "341a5a54-10d0-436f-a8d1-f8a4fd21339a")
-		)
-		(pin "1"
-			(uuid "02febaf1-da89-44b1-8b82-383ce4c9d893")
-		)
-		(pin "4"
-			(uuid "bd575e25-dfd0-47b8-9aaa-c6c4ca186377")
-		)
-		(pin "5"
-			(uuid "5614ff14-a495-4317-b1dd-1b8b2ddc65b2")
+			(uuid "ce24e5d3-4b12-4516-927a-475202ccf828")
 		)
 		(pin "2"
-			(uuid "1a762f5e-0381-42b5-a085-3bdfd3966c2a")
+			(uuid "6a9c739f-f8f2-4dc3-a9f5-7535bcb04834")
+		)
+		(pin "4"
+			(uuid "5e7a6ba4-bfcb-4fcc-a78d-cc1bc2f1ce76")
+		)
+		(pin "5"
+			(uuid "4c5ebe0e-f08b-4297-b420-83a25d12fdbd")
+		)
+		(pin "3"
+			(uuid "b980a4fe-d505-483d-8e55-a3784c64b924")
+		)
+		(pin "1"
+			(uuid "1384928d-fba7-4810-b261-aebe18b87f43")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J14")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 58.42 180)
+		(lib_id "remote_0436500412:0436500412")
+		(at 243.84 50.8 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4894,29 +4645,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5dcec8c2-2eaf-480b-bfcf-be36f7403350")
+		(fields_autoplaced yes)
+		(uuid "65aeb985-eea2-4211-9975-1930ae4ef757")
 		(property "Reference" "J1"
-			(at 41.91 55.88 0)
+			(at 257.81 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0436500412"
+			(at 257.81 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Step Bushing"
-			(at 41.91 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 58.42 0)
+		(property "Footprint" "remote_0436500412:CONN_SD-43650-005_04_MOL"
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,8 +4680,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "N/A"
-			(at 45.72 58.42 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf"
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4937,8 +4691,8 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 58.42 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,8 +4702,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 58.42 0)
+		(property "Manufacturer" "Molex"
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,8 +4713,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 58.42 0)
+		(property "Manufacturer Part Number" "0436500412"
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,7 +4725,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +4736,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,7 +4747,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +4758,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,7 +4769,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +4780,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +4791,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,7 +4802,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +4813,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +4824,230 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 45.72 58.42 0)
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "5acd21cb-f65e-4f75-bd8b-b329f3bd4a52")
+		)
+		(pin "2"
+			(uuid "652c63e0-1a4e-4cdd-9291-6c4b823c4acf")
+		)
+		(pin "4"
+			(uuid "a507b544-64c2-4713-987c-6fec87882d17")
+		)
+		(pin "5"
+			(uuid "508ea89a-52f1-4598-a6ff-f759791da547")
+		)
+		(pin "3"
+			(uuid "f1f4c13e-7bba-4e2a-8ef6-1a3669c6e2c3")
+		)
+		(pin "1"
+			(uuid "26500d11-5a8a-4171-a116-8e3f76291633")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 119.38 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fed5a4f-9aa9-4a60-9969-132e56084218")
+		(property "Reference" "MP13"
+			(at 41.91 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BDM"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 45.72 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,12 +5058,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7cdd60c-ce79-431c-b2c4-5dd5cf4cedfe")
+			(uuid "5c3d6fe5-c190-4e13-ab66-f3d5fdf48a92")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J1")
+					(reference "MP13")
 					(unit 1)
 				)
 			)
@@ -5304,214 +5281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 88.9 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "740bfb26-a1cc-4d2e-a6b7-1ef0759a6ad7")
-		(property "Reference" "J5"
-			(at 41.91 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Step Bushing"
-			(at 41.91 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "N/A"
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 45.72 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a977f1d8-5f58-432a-905c-0d78ec8cb0f6")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "remote_0451.500mrl:0451.500MRL")
 		(at 55.88 96.52 0)
 		(unit 1)
@@ -5723,18 +5492,30 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_0430450409:430450409")
-		(at 243.84 50.8 0)
+		(lib_id "remote_0436500412:0436500412")
+		(at 243.84 73.66 0)
 		(unit 1)
-		(body_style 1)
+		(body_style 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8de4eb46-05dd-4ec4-93cc-2e5f0dc1f762")
-		(property "Reference" "J11"
-			(at 248.92 46.99 0)
+		(fields_autoplaced yes)
+		(uuid "785e248b-d69a-48ec-817d-1bf34a51351c")
+		(property "Reference" "J2"
+			(at 257.81 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0436500412"
+			(at 257.81 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5744,19 +5525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0430450409"
-			(at 248.92 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_0430450409:CONN_SD-43045-004_04_MOL"
-			(at 243.84 50.8 0)
+		(property "Footprint" "remote_0436500412:CONN_SD-43650-005_04_MOL"
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,8 +5536,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 243.84 50.8 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf"
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +5548,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5789,7 +5559,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,8 +5569,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0430450409"
-			(at 243.84 50.8 0)
+		(property "Manufacturer Part Number" "0436500412"
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5581,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5592,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5603,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +5614,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +5625,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +5636,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5877,7 +5647,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +5658,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,7 +5669,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5910,7 +5680,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 243.84 50.8 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,27 +5691,235 @@
 			)
 		)
 		(pin "6"
-			(uuid "0d6bd4b4-b00b-49f6-83a5-eefce7dd72b2")
-		)
-		(pin "3"
-			(uuid "42305c48-0500-414f-837b-da4b4d87ac4e")
-		)
-		(pin "1"
-			(uuid "cdd933d4-0538-417a-95b5-c02d55b5835c")
-		)
-		(pin "4"
-			(uuid "901c2ee7-37c5-4421-b61c-d8740cfda52c")
-		)
-		(pin "5"
-			(uuid "cb0f51e9-9463-4f93-8e74-a34aed2f33da")
+			(uuid "1ef3a209-8b0e-44e7-b91d-d781733315cd")
 		)
 		(pin "2"
-			(uuid "d6a52c77-76e1-4103-904b-01ab43a5f2db")
+			(uuid "5cf72eb4-b27f-4c1e-ba01-33a8741d2b41")
+		)
+		(pin "4"
+			(uuid "cce4a0b9-68c4-4178-8442-e06fe0c7b2e1")
+		)
+		(pin "5"
+			(uuid "558cc10c-d085-46df-aa34-a74e929a1993")
+		)
+		(pin "3"
+			(uuid "e809bc45-9b38-4753-abfa-4505aa5e9728")
+		)
+		(pin "1"
+			(uuid "8de06813-211d-4193-a60c-a1e496559bc6")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J11")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 81.28 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d98d49a-2c8b-4eac-b654-3f82994699be")
+		(property "Reference" "MP8"
+			(at 41.91 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BDM"
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 45.72 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eacbdd9-802d-456f-a037-fc5a137685cc")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "MP8")
 					(unit 1)
 				)
 			)
@@ -6882,233 +6860,8 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_0430450409:430450409")
-		(at 243.84 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af51e97f-8cd4-4aa9-9ba0-b9406ca632bb")
-		(property "Reference" "J12"
-			(at 248.92 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0430450409"
-			(at 248.92 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_0430450409:CONN_SD-43045-004_04_MOL"
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0430450409"
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 243.84 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "cee97d49-ee4b-440c-a4ef-7c4893a8f895")
-		)
-		(pin "3"
-			(uuid "9b033bea-d025-4ec7-a386-eadb1109c031")
-		)
-		(pin "1"
-			(uuid "6beeb217-3dfd-425f-949e-29fb527d1b9a")
-		)
-		(pin "4"
-			(uuid "68e3adff-99a1-4aaf-98e1-34da1d3ce741")
-		)
-		(pin "5"
-			(uuid "617dcc1a-c33e-43cd-9d0e-d3781e2c2b8e")
-		)
-		(pin "2"
-			(uuid "b2bc69b6-24ba-4233-81b5-01880fda16d4")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 111.76 180)
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 58.42 180)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -7116,9 +6869,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "af7ee3b1-4718-48e3-8fbf-a6378f9a3e7b")
-		(property "Reference" "J8"
-			(at 41.91 109.22 0)
+		(uuid "adafbe2c-3311-4eb7-8649-ec79dbefaa3c")
+		(property "Reference" "MP5"
+			(at 41.91 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7127,8 +6880,8 @@
 				)
 			)
 		)
-		(property "Value" "Step Bushing"
-			(at 41.91 114.3 0)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7137,8 +6890,8 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 111.76 0)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,8 +6912,8 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 111.76 0)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,8 +6923,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 111.76 0)
+		(property "Manufacturer" "BDM"
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7181,8 +6934,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 111.76 0)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7193,7 +6946,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7204,7 +6957,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7215,7 +6968,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +6979,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,7 +6990,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7248,7 +7001,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +7012,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7023,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,7 +7034,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7045,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 45.72 111.76 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,12 +7056,220 @@
 			)
 		)
 		(pin "1"
-			(uuid "126c373e-cce7-4d2d-b95a-ec4b088c008f")
+			(uuid "b6ad1875-7c17-41eb-a407-e5c4ce3e3032")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J8")
+					(reference "MP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 66.04 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afc6e3f0-4039-4def-adfd-e85686fb2d2c")
+		(property "Reference" "MP6"
+			(at 41.91 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BDM"
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc19c7e6-0c1a-4e95-8984-3641d8b3252b")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "MP6")
 					(unit 1)
 				)
 			)
@@ -7526,8 +7487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 81.28 180)
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 111.76 180)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -7535,9 +7496,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c8975021-1cc7-4155-b337-118e3628fa38")
-		(property "Reference" "J4"
-			(at 41.91 78.74 0)
+		(uuid "c4baa2e2-b275-40da-8e2c-ec7c6f103232")
+		(property "Reference" "MP12"
+			(at 41.91 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7546,8 +7507,8 @@
 				)
 			)
 		)
-		(property "Value" "Step Bushing"
-			(at 41.91 83.82 0)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7556,8 +7517,8 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 81.28 0)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7529,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7578,8 +7539,8 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 81.28 0)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,8 +7550,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 81.28 0)
+		(property "Manufacturer" "BDM"
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,8 +7561,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 81.28 0)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +7573,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7584,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7595,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7606,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7656,7 +7617,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7667,7 +7628,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7678,7 +7639,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7689,7 +7650,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7661,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7672,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 45.72 81.28 0)
+			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +7683,233 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fd770d2-bffd-4314-be31-5418856c866b")
+			(uuid "9bc63651-1172-427a-9b48-a4396ac901c7")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "MP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_0436500412:0436500412")
+		(at 243.84 119.38 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0920c09-e9ba-48e2-b61e-6adb8f7022ce")
+		(property "Reference" "J4"
+			(at 257.81 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0436500412"
+			(at 257.81 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "remote_0436500412:CONN_SD-43650-005_04_MOL"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0436500412"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "993812e9-8a5b-4855-a299-cbf954651bcf")
+		)
+		(pin "2"
+			(uuid "803d8390-7584-4dae-9ae5-dd10ff1f86c3")
+		)
+		(pin "4"
+			(uuid "8f847876-79a7-417b-9170-b8c9b3dad7e0")
+		)
+		(pin "5"
+			(uuid "9957161f-0924-41bb-b130-203794ebd07f")
+		)
+		(pin "3"
+			(uuid "83073fe8-e040-42ee-82ae-822bf3fea227")
+		)
+		(pin "1"
+			(uuid "494288cd-6643-4169-8c9d-5de6fd335631")
 		)
 		(instances
 			(project "battery_interface_board"
@@ -7734,8 +7921,8 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 66.04 180)
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 88.9 180)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -7743,9 +7930,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc49d699-440b-46db-a3bb-b8b9b937fdfd")
-		(property "Reference" "J2"
-			(at 41.91 63.5 0)
+		(uuid "dd49d6f2-c8bd-4fa3-a395-0b9692747023")
+		(property "Reference" "MP9"
+			(at 41.91 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7754,8 +7941,8 @@
 				)
 			)
 		)
-		(property "Value" "Step Bushing"
-			(at 41.91 68.58 0)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7764,8 +7951,8 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 66.04 0)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,7 +7963,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 45.72 66.04 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7786,8 +7973,8 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 66.04 0)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,8 +7984,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 66.04 0)
+		(property "Manufacturer" "BDM"
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7808,216 +7995,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 45.72 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a605dee-e260-4834-b424-09ceb05f9a96")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
-		(at 45.72 104.14 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2a57c8b-ec8f-4968-a98a-c0d741773808")
-		(property "Reference" "J7"
-			(at 41.91 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Step Bushing"
-			(at 41.91 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_n_a:steped_bushing"
-			(at 45.72 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "N/A"
-			(at 45.72 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
-			(at 45.72 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Blue Devil Motorsports"
-			(at 45.72 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "Step Bushing"
-			(at 45.72 104.14 0)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,7 +8007,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +8018,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +8029,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8040,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8051,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8062,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +8073,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8105,7 +8084,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +8095,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8106,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 45.72 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,237 +8117,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ec2583c-add3-4467-a46d-e75c41b6c6c0")
+			(uuid "1a28a2c2-a61b-4662-9648-be3f2c079798")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "remote_0430450409:430450409")
-		(at 243.84 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea55c9f2-7951-40d5-959c-6554e343a694")
-		(property "Reference" "J13"
-			(at 248.92 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0430450409"
-			(at 248.92 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_0430450409:CONN_SD-43045-004_04_MOL"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0430450409"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "a4c1b2cd-a232-426d-bd11-a062dcb6f4e4")
-		)
-		(pin "3"
-			(uuid "1b71adb7-3c20-4b0a-86ca-515377cdb95a")
-		)
-		(pin "1"
-			(uuid "d311992c-88b8-4d8b-b51c-3e3ec37913a8")
-		)
-		(pin "4"
-			(uuid "9141cf7a-e805-4e09-81f7-2885f565768a")
-		)
-		(pin "5"
-			(uuid "14368b5e-f6b1-475b-a713-ec7804d101ba")
-		)
-		(pin "2"
-			(uuid "d1a873b2-7a28-4f48-889d-b7e59e04ff25")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J13")
+					(reference "MP9")
 					(unit 1)
 				)
 			)
@@ -8586,7 +8340,215 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_n_a:Steped_Bushing")
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
+		(at 45.72 73.66 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eec0f3af-21e5-44a6-8102-4f2d47b54656")
+		(property "Reference" "MP7"
+			(at 41.91 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Enepaq M5 Clamp"
+			(at 41.91 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BDM"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c96db5aa-8775-4618-bb14-d6d33ef34d49")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "MP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 		(at 45.72 96.52 180)
 		(unit 1)
 		(body_style 0)
@@ -8595,8 +8557,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f6ea5ff6-a3bb-47c9-90df-059c0206a062")
-		(property "Reference" "J6"
+		(uuid "f4bdad9b-4319-4e94-9a06-e4b812aa3753")
+		(property "Reference" "MP10"
 			(at 41.91 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8606,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Value" "Step Bushing"
+		(property "Value" "Enepaq M5 Clamp"
 			(at 41.91 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "remote_n_a:steped_bushing"
+		(property "Footprint" "remote_enepaq_m5_clamp:Enepaq_M5_Clamp"
 			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8638,7 +8600,7 @@
 				)
 			)
 		)
-		(property "Description" "A bushing to take the clamping force instead of the PCB. 10.5mm ID 16mm OD."
+		(property "Description" "Enepaq M5 Clamp Through hole pad with via ring, sized for 15mm flat washer, 11mm bevel washer."
 			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8649,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Blue Devil Motorsports"
+		(property "Manufacturer" "BDM"
 			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8660,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "Step Bushing"
+		(property "Manufacturer Part Number" "Enepaq M5 Clamp"
 			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8782,12 +8744,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c39757c-bad5-4208-a2e9-9f9964c25023")
+			(uuid "7edc8c03-bda3-446c-a02c-4ed5bc84f4ce")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J6")
+					(reference "MP10")
 					(unit 1)
 				)
 			)
