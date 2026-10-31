@@ -12,4 +12,5 @@
 	(lib (name "remote_enepaq_m5_clamp") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_enepaq_m5_clamp.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0436500400") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_0436500400.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0436500412") (type "KiCad") (uri "/home/aidan/git/battery_interface_board/RemoteLibrary/footprints/remote_0436500412.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_s4b-xh-sm4-tb") (type "KiCad") (uri "C:/Users/abrzezins/Git/battery_interface_board/RemoteLibrary/footprints/remote_s4b-xh-sm4-tb.pretty/") (options "") (descr "Remote download"))
 )
