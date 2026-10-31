@@ -911,7 +911,7 @@
     "DESCRIPTION": "This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "fdbe346",
+    "GIT_HASH_PCB": "16a07e5",
     "GIT_HASH_SCH": "fdbe346",
     "GIT_URL": "https://github.com/BDMPowertrain/battery_interface_board",
     "PROJECT_NAME": "Battery Interface Board",

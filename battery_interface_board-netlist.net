@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-d81ayogn/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-4u5di7zl/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,7 +23,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "fdbe346")
+			(name "GIT_HASH_PCB") "16a07e5")
 		(textvar
 			(name "GIT_HASH_SCH") "fdbe346")
 		(textvar
@@ -1932,15 +1932,28 @@
 		)
 		(comp
 			(ref "J1")
-			(value "0436500412")
-			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
-			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(value "S4B-XH-SM4-TB")
+			(footprint "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
 				(field
-					(name "Manufacturer Part Number") "0436500412")
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
 				(field
 					(name "Vendor")
 				)
@@ -1972,24 +1985,48 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
 				(field
-					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			)
 			(libsource
-				(lib "remote_0436500412")
-				(part "0436500412")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "remote_s4b-xh-sm4-tb")
+				(part "S4B-XH-SM4-TB")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "6.00mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "NA")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "JST")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "JST Sales America Inc.")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0436500412")
+				(value "S4B-XH-SM4-TB")
 			)
 			(property
 				(name "Vendor")
@@ -2039,15 +2076,11 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "0436500412")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "65aeb985-eea2-4211-9975-1930ae4ef757")
+			(tstamps "df10696e-1694-4287-8b87-0fdf4b7254a1")
 			(units
 				(unit
 					(name "A")
@@ -2065,10 +2098,7 @@
 							(num "4")
 						)
 						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
+							(num "SH1")
 						)
 					)
 				)
@@ -2076,15 +2106,28 @@
 		)
 		(comp
 			(ref "J2")
-			(value "0436500412")
-			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
-			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(value "S4B-XH-SM4-TB")
+			(footprint "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
 				(field
-					(name "Manufacturer Part Number") "0436500412")
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
 				(field
 					(name "Vendor")
 				)
@@ -2116,24 +2159,48 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
 				(field
-					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			)
 			(libsource
-				(lib "remote_0436500412")
-				(part "0436500412")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "")
+				(part "S4B-XH-SM4-TB_1")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "6.00mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "NA")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "JST")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "JST Sales America Inc.")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0436500412")
+				(value "S4B-XH-SM4-TB")
 			)
 			(property
 				(name "Vendor")
@@ -2183,15 +2250,11 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "0436500412")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "785e248b-d69a-48ec-817d-1bf34a51351c")
+			(tstamps "79197c6d-52f5-45df-a2b3-31a038e4ad1b")
 			(units
 				(unit
 					(name "A")
@@ -2209,10 +2272,7 @@
 							(num "4")
 						)
 						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
+							(num "SH1")
 						)
 					)
 				)
@@ -2220,15 +2280,28 @@
 		)
 		(comp
 			(ref "J3")
-			(value "0436500412")
-			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
-			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(value "S4B-XH-SM4-TB")
+			(footprint "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
 				(field
-					(name "Manufacturer Part Number") "0436500412")
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
 				(field
 					(name "Vendor")
 				)
@@ -2260,24 +2333,48 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
 				(field
-					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			)
 			(libsource
-				(lib "remote_0436500412")
-				(part "0436500412")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "")
+				(part "S4B-XH-SM4-TB_2")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "6.00mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "NA")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "JST")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "JST Sales America Inc.")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0436500412")
+				(value "S4B-XH-SM4-TB")
 			)
 			(property
 				(name "Vendor")
@@ -2327,15 +2424,11 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "0436500412")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "3fec1e2f-b7cf-422f-bd34-305f697ecafc")
+			(tstamps "9783b217-e39d-483c-a9ca-09e44c5acb54")
 			(units
 				(unit
 					(name "A")
@@ -2353,10 +2446,7 @@
 							(num "4")
 						)
 						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
+							(num "SH1")
 						)
 					)
 				)
@@ -2364,15 +2454,28 @@
 		)
 		(comp
 			(ref "J4")
-			(value "0436500412")
-			(footprint "remote_0436500412:CONN_SD-43650-005_04_MOL")
-			(datasheet "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+			(value "S4B-XH-SM4-TB")
+			(footprint "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			(fields
 				(field
-					(name "Manufacturer") "Molex")
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
 				(field
-					(name "Manufacturer Part Number") "0436500412")
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
 				(field
 					(name "Vendor")
 				)
@@ -2404,24 +2507,48 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
 				(field
-					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 			)
 			(libsource
-				(lib "remote_0436500412")
-				(part "0436500412")
-				(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+				(lib "")
+				(part "S4B-XH-SM4-TB_3")
+				(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "6.00mm")
+			)
+			(property
+				(name "CREATOR")
+				(value "NEZY")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "NA")
+			)
+			(property
+				(name "VERIFIER")
+				(value "")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "JST")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Molex")
+				(value "JST Sales America Inc.")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0436500412")
+				(value "S4B-XH-SM4-TB")
 			)
 			(property
 				(name "Vendor")
@@ -2471,15 +2598,11 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
-			(property
-				(name "ki_keywords")
-				(value "0436500412")
-			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			)
-			(tstamps "d0920c09-e9ba-48e2-b61e-6adb8f7022ce")
+			(tstamps "9ec7a0bf-0573-4e30-b977-577e3d5193b1")
 			(units
 				(unit
 					(name "A")
@@ -2497,10 +2620,7 @@
 							(num "4")
 						)
 						(pin
-							(num "5")
-						)
-						(pin
-							(num "6")
+							(num "SH1")
 						)
 					)
 				)
@@ -4746,25 +4866,38 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "remote_0436500412")
-			(part "0436500412")
-			(description "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
-			(docs "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+			(lib "")
+			(part "S4B-XH-SM4-TB_1")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			(docs "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 			(fields
 				(field
 					(name "Reference") "J")
 				(field
-					(name "Value") "0436500412")
+					(name "Value") "S4B-XH-SM4-TB")
 				(field
-					(name "Footprint") "remote_0436500412:CONN_SD-43650-005_04_MOL")
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
 				(field
-					(name "Datasheet") "https://www.molex.com/en-us/products/part-detail/436500412?display=pdf")
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
 				(field
-					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
 				(field
-					(name "Manufacturer") "Molex")
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
 				(field
-					(name "Manufacturer Part Number") "0436500412")
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
 				(field
 					(name "Vendor")
 				)
@@ -4800,32 +4933,211 @@
 				(pin
 					(num "1")
 					(name "1")
-					(type "unspecified")
+					(type "passive")
 				)
 				(pin
 					(num "2")
 					(name "2")
-					(type "unspecified")
+					(type "passive")
 				)
 				(pin
 					(num "3")
 					(name "3")
-					(type "unspecified")
+					(type "passive")
 				)
 				(pin
 					(num "4")
 					(name "4")
-					(type "unspecified")
+					(type "passive")
 				)
 				(pin
-					(num "5")
-					(name "MNT")
-					(type "unspecified")
+					(num "SH1")
+					(name "SH1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "S4B-XH-SM4-TB_2")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			(docs "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "S4B-XH-SM4-TB")
+				(field
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+				(field
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
 				)
 				(pin
-					(num "6")
-					(name "MNT")
-					(type "unspecified")
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "SH1")
+					(name "SH1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "")
+			(part "S4B-XH-SM4-TB_3")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			(docs "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "S4B-XH-SM4-TB")
+				(field
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+				(field
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "SH1")
+					(name "SH1")
+					(type "passive")
 				)
 			)
 		)
@@ -5241,6 +5553,98 @@
 			)
 		)
 		(libpart
+			(lib "remote_s4b-xh-sm4-tb")
+			(part "S4B-XH-SM4-TB")
+			(description "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+			(docs "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "S4B-XH-SM4-TB")
+				(field
+					(name "Footprint") "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds")
+				(field
+					(name "Description") "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "6.00mm")
+				(field
+					(name "CREATOR") "NEZY")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "NA")
+				(field
+					(name "VERIFIER")
+				)
+				(field
+					(name "MANUFACTURER") "JST")
+				(field
+					(name "Manufacturer") "JST Sales America Inc.")
+				(field
+					(name "Manufacturer Part Number") "S4B-XH-SM4-TB")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "SH1")
+					(name "SH1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_sae_electric_logo")
 			(part "LOGO")
 			(description "SAE Electric logo.")
@@ -5606,15 +6010,15 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J1")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
 			)
 			(node
 				(ref "J1")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
 			)
 			(node
 				(ref "J10")
@@ -5624,39 +6028,39 @@
 			)
 			(node
 				(ref "J2")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
 			)
 			(node
 				(ref "J2")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
 			)
 			(node
 				(ref "J3")
 				(pin "3")
 				(pinfunction "3_3")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 			(node
-				(ref "J3")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
+				(ref "J4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
 			)
 			(node
 				(ref "J4")
 				(pin "3")
 				(pinfunction "3_3")
-				(pintype "unspecified")
-			)
-			(node
-				(ref "J4")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5665,9 +6069,9 @@
 			(class "TEMP,Default")
 			(node
 				(ref "J1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
 			)
 			(node
 				(ref "J10")
@@ -5688,9 +6092,9 @@
 			)
 			(node
 				(ref "J2")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5705,9 +6109,9 @@
 			)
 			(node
 				(ref "J3")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5722,9 +6126,9 @@
 			)
 			(node
 				(ref "J4")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5741,7 +6145,7 @@
 				(ref "J4")
 				(pin "1")
 				(pinfunction "1_1")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5758,7 +6162,7 @@
 				(ref "J3")
 				(pin "1")
 				(pinfunction "1_1")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5775,7 +6179,7 @@
 				(ref "J2")
 				(pin "1")
 				(pinfunction "1_1")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -5786,7 +6190,7 @@
 				(ref "J1")
 				(pin "1")
 				(pinfunction "1_1")
-				(pintype "unspecified")
+				(pintype "passive")
 			)
 			(node
 				(ref "J10")
@@ -5813,90 +6217,90 @@
 		)
 		(net
 			(code "32")
-			(name "unconnected-(J1-MNT-Pad5)")
+			(name "unconnected-(J1-PadSH1)")
 			(class "Default")
 			(node
 				(ref "J1")
-				(pin "5")
-				(pinfunction "MNT_5")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "33")
-			(name "unconnected-(J1-MNT-Pad6)")
+			(name "unconnected-(J1-PadSH1)_1")
 			(class "Default")
 			(node
 				(ref "J1")
-				(pin "6")
-				(pinfunction "MNT_6")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "34")
-			(name "unconnected-(J2-MNT-Pad5)")
+			(name "unconnected-(J2-PadSH1)")
 			(class "Default")
 			(node
 				(ref "J2")
-				(pin "5")
-				(pinfunction "MNT_5")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "35")
-			(name "unconnected-(J2-MNT-Pad6)")
+			(name "unconnected-(J2-PadSH1)_1")
 			(class "Default")
 			(node
 				(ref "J2")
-				(pin "6")
-				(pinfunction "MNT_6")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "36")
-			(name "unconnected-(J3-MNT-Pad5)")
+			(name "unconnected-(J3-PadSH1)")
 			(class "Default")
 			(node
 				(ref "J3")
-				(pin "5")
-				(pinfunction "MNT_5")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "37")
-			(name "unconnected-(J3-MNT-Pad6)")
+			(name "unconnected-(J3-PadSH1)_1")
 			(class "Default")
 			(node
 				(ref "J3")
-				(pin "6")
-				(pinfunction "MNT_6")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "38")
-			(name "unconnected-(J4-MNT-Pad5)")
+			(name "unconnected-(J4-PadSH1)")
 			(class "Default")
 			(node
 				(ref "J4")
-				(pin "5")
-				(pinfunction "MNT_5")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
 			(code "39")
-			(name "unconnected-(J4-MNT-Pad6)")
+			(name "unconnected-(J4-PadSH1)_1")
 			(class "Default")
 			(node
 				(ref "J4")
-				(pin "6")
-				(pinfunction "MNT_6")
-				(pintype "unspecified+no_connect")
+				(pin "SH1")
+				(pinfunction "SH1_SH1")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
