@@ -13,4 +13,5 @@
 	(lib (name "remote_0436500400") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_0436500400.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0436500412") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_0436500412.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_s4b-xh-sm4-tb") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_s4b-xh-sm4-tb.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_ipt1-110-02-l-d") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_ipt1-110-02-l-d.pretty/") (options "") (descr "Remote download"))
 )

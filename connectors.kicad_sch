@@ -9,1182 +9,6 @@
 		(date "2026-10-16")
 	)
 	(lib_symbols
-		(symbol "S4B-XH-SM4-TB_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "CREATOR" "NEZY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "NA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer" "JST Sales America Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mass (g)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC_top (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_max (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_min (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power Dissipation (W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rate" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SAP Code" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_1_0_0"
-				(rectangle
-					(start 5.08 2.54)
-					(end 13.97 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_1_1_0"
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "S4B-XH-SM4-TB_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "CREATOR" "NEZY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "NA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer" "JST Sales America Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mass (g)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC_top (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_max (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_min (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power Dissipation (W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rate" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SAP Code" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_2_0_0"
-				(rectangle
-					(start 5.08 2.54)
-					(end 13.97 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_2_1_0"
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "S4B-XH-SM4-TB_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "CREATOR" "NEZY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "NA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer" "JST Sales America Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mass (g)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC_top (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_max (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_min (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power Dissipation (W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rate" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SAP Code" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_3_0_0"
-				(rectangle
-					(start 5.08 2.54)
-					(end 13.97 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S4B-XH-SM4-TB_3_1_0"
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "remote_0451.500mrl:0451.500MRL"
 			(pin_numbers
 				(hide yes)
@@ -1696,7 +520,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "remote_ipt1-110-01-l-d:IPT1-110-01-L-D"
+		(symbol "remote_ipt1-110-02-l-d:IPT1-110-02-L-D"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1706,17 +530,17 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 5.08 3.81 0)
+				(at 4.58 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "IPT1-110-01-L-D"
+			(property "Value" "IPT1-110-02-L-D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1726,7 +550,7 @@
 					)
 				)
 			)
-			(property "Footprint" "remote_ipt1-110-01-l-d:SAMTEC_IPT1-110-01-L-D"
+			(property "Footprint" "remote_ipt1-110-02-l-d:SAMTEC_IPT1-110-02-L-D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1806,7 +630,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "IPT1-110-01-L-D"
+			(property "Manufacturer Part Number" "IPT1-110-02-L-D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1927,7 +751,18 @@
 					)
 				)
 			)
-			(symbol "IPT1-110-01-L-D_0_0"
+			(symbol "IPT1-110-02-L-D_0_0"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -2286,19 +1121,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "IPT1-110-01-L-D_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -25.4)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -2678,14 +1500,14 @@
 				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
-					(name "SH1"
+					(name "SH2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "SH1"
+					(number "SH2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4056,17 +2878,17 @@
 		)
 		(uuid "0a317c49-ddff-4ab3-bdee-5a2ad21e53ac")
 	)
-	(label "BUSH1"
-		(at 48.26 58.42 0)
+	(label "CLAMP5"
+		(at 48.26 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0d352f6b-6599-41ff-aa58-65d76a85fe0e")
-		(property "Netclass" "BUSH"
-			(at 48.26 59.69 0)
+		(uuid "0d5eb219-b415-4d86-bebe-7bf39709c0d6")
+		(property "Netclass" "CLAMP"
+			(at 48.26 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4087,28 +2909,6 @@
 			(justify left bottom)
 		)
 		(uuid "155530ca-7025-45a1-846f-8128713e29f9")
-	)
-	(label "BUSH7"
-		(at 48.26 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "167370ed-80c6-47ac-8e49-7bd896c22274")
-		(property "Netclass" "BUSH"
-			(at 48.26 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "TMP5"
 		(at 175.26 63.5 180)
@@ -4220,28 +3020,6 @@
 		)
 		(uuid "2db90d56-1797-478a-8584-cc0d11a76691")
 	)
-	(label "BUSH3"
-		(at 48.26 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3012c075-be75-4b6f-a475-041c2cce7fcb")
-		(property "Netclass" "BUSH"
-			(at 48.26 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "TMP4"
 		(at 175.26 66.04 180)
 		(effects
@@ -4315,72 +3093,6 @@
 		)
 		(uuid "38a3b86f-e4a7-4c7f-a97b-176d2f3afaa5")
 	)
-	(label "BUSH4"
-		(at 48.26 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bfe7f03-b264-4bb2-b3c3-8e2d9de82fe3")
-		(property "Netclass" "BUSH"
-			(at 48.26 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "BUSH2"
-		(at 48.26 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c807799-67ae-4782-b5f0-64ce410a88ba")
-		(property "Netclass" "BUSH"
-			(at 48.26 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "BUSH9"
-		(at 48.26 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "566cfc69-ea8c-4f19-b443-62da10f52987")
-		(property "Netclass" "BUSH"
-			(at 48.26 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "TMP6"
 		(at 243.84 96.52 180)
 		(effects
@@ -4400,6 +3112,28 @@
 			(justify left bottom)
 		)
 		(uuid "61fcfc7a-6301-4a93-8fc2-d3057d12fa0c")
+	)
+	(label "CLAMP1"
+		(at 48.26 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63716b0d-1778-4688-bde3-9ba942116395")
+		(property "Netclass" "CLAMP"
+			(at 48.26 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TEMP_RTN"
 		(at 243.84 101.6 180)
@@ -4467,27 +3201,17 @@
 		)
 		(uuid "8534898b-3f1f-4389-8db9-4a9cf7bcdf36")
 	)
-	(label "TMP6"
-		(at 175.26 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b0b48d1-de14-4d80-9adb-ae1e9216443e")
-	)
-	(label "BUSH8"
-		(at 48.26 111.76 0)
+	(label "CLAMP2"
+		(at 48.26 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8d2642cc-9d21-436b-951b-749062c58032")
-		(property "Netclass" "BUSH"
-			(at 48.26 113.03 0)
+		(uuid "876bf210-8dcf-4af1-9267-e1bc186e1203")
+		(property "Netclass" "CLAMP"
+			(at 48.26 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4498,6 +3222,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "TMP6"
+		(at 175.26 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b0b48d1-de14-4d80-9adb-ae1e9216443e")
 	)
 	(label "TAP7"
 		(at 134.62 55.88 0)
@@ -4538,6 +3272,28 @@
 			(justify right bottom)
 		)
 		(uuid "9f2c3def-b74d-4f0b-ac2a-d41825bed60f")
+	)
+	(label "CLAMP4"
+		(at 48.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a32a56f2-dca6-4b5c-8c8b-2a423ebec0b8")
+		(property "Netclass" "CLAMP"
+			(at 48.26 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMP7"
 		(at 175.26 58.42 180)
@@ -4588,6 +3344,28 @@
 			(justify left bottom)
 		)
 		(uuid "ab157971-2ddd-4130-9d46-db74b91f02ce")
+	)
+	(label "CLAMP0"
+		(at 48.26 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b017b9d0-374e-4534-a982-c6252d4c0120")
+		(property "Netclass" "CLAMP"
+			(at 48.26 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TAP3"
 		(at 60.96 81.28 0)
@@ -4712,28 +3490,6 @@
 		)
 		(uuid "d29e57ee-f271-4d4e-8563-5efa34a39ab4")
 	)
-	(label "BUSH6"
-		(at 48.26 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8a576d0-ddf3-41b6-b971-7cfcb138cb0b")
-		(property "Netclass" "BUSH"
-			(at 48.26 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "TAP1"
 		(at 134.62 71.12 0)
 		(effects
@@ -4743,28 +3499,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0660d99-88a2-4107-8a0f-d4c8f3e25118")
-	)
-	(label "BUSH5"
-		(at 48.26 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e60a987e-058b-42e9-9a8d-04bf73a4bf61")
-		(property "Netclass" "BUSH"
-			(at 48.26 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "TMP8"
 		(at 175.26 55.88 180)
@@ -4776,6 +3510,28 @@
 		)
 		(uuid "ea12a15b-b425-49b6-8241-01f83e088ad9")
 	)
+	(label "CLAMP3"
+		(at 48.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec972798-e3cd-45a4-98a2-07a55fe98b3e")
+		(property "Netclass" "CLAMP"
+			(at 48.26 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "TAP5"
 		(at 134.62 60.96 0)
 		(effects
@@ -4785,6 +3541,50 @@
 			(justify left bottom)
 		)
 		(uuid "ef072932-8b73-4b82-85e6-f1f3369dd45a")
+	)
+	(label "CLAMP8"
+		(at 48.26 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef673214-447b-4453-9aa9-7e3c89f13b11")
+		(property "Netclass" "CLAMP"
+			(at 48.26 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "CLAMP6"
+		(at 48.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1c9bb3a-e7bd-4dc9-baeb-89fac1fe290a")
+		(property "Netclass" "CLAMP"
+			(at 48.26 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMP2"
 		(at 243.84 81.28 180)
@@ -4805,6 +3605,28 @@
 			(justify left bottom)
 		)
 		(uuid "f6e2d4e7-cf28-4d11-b873-d475063cc1f7")
+	)
+	(label "CLAMP7"
+		(at 48.26 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9b26529-e65f-407d-b293-fafb85559470")
+		(property "Netclass" "CLAMP"
+			(at 48.26 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "remote_0451.500mrl:0451.500MRL")
@@ -5648,6 +4470,604 @@
 		)
 	)
 	(symbol
+		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
+		(at 243.84 119.38 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34c41c71-4cff-40de-92d5-4919013052f0")
+		(property "Reference" "J4"
+			(at 248.92 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S4B-XH-SM4-TB"
+			(at 246.38 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "NEZY"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 243.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "66cd4d02-c3e7-4df0-9a83-8533890dbd77")
+		)
+		(pin "SH1"
+			(uuid "cfc41c0b-56a8-4f4e-abf9-9eaaf9889698")
+		)
+		(pin "1"
+			(uuid "79282a0b-8426-4257-849a-d22741e75e1d")
+		)
+		(pin "2"
+			(uuid "0ca5a04c-5bfe-475b-ae81-6214016e9046")
+		)
+		(pin "4"
+			(uuid "5b8e3354-0d95-4c25-85a0-6dc5d51c1cb0")
+		)
+		(pin "SH2"
+			(uuid "2a87cae5-adb1-4525-a672-6de707276f60")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_ipt1-110-02-l-d:IPT1-110-02-L-D")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43610bc8-10ce-4440-a3fc-5bc768fb79da")
+		(property "Reference" "J5"
+			(at 152.4 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT1-110-02-L-D"
+			(at 152.4 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_ipt1-110-02-l-d:SAMTEC_IPT1-110-02-L-D"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/ipt1-1xx-xx-xx-d-xx-mkt.pdf"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 20 position 0.100\" (2.54mm)"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IPT1-110-02-L-D"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "02"
+			(uuid "038d34c5-4ceb-4ff3-9fd4-fd59369f5e9d")
+		)
+		(pin "04"
+			(uuid "1508fcbe-751a-4f03-a2be-b8f15703c162")
+		)
+		(pin "06"
+			(uuid "ab6cbfb0-8d00-4815-9f65-e42994b04fad")
+		)
+		(pin "10"
+			(uuid "2ddc866b-6bf0-4bb5-979b-07364568ea1f")
+		)
+		(pin "16"
+			(uuid "2a5ef1d3-768a-4361-9ba4-6770661125b8")
+		)
+		(pin "19"
+			(uuid "7660a9f2-9153-4fe6-922b-f9b6a982ebac")
+		)
+		(pin "11"
+			(uuid "d8703fa4-f732-445e-9c85-f455358fffd0")
+		)
+		(pin "01"
+			(uuid "e29717ab-8236-4dc9-8810-821ac87d7148")
+		)
+		(pin "03"
+			(uuid "858eba77-982b-4ee4-96ab-39fdc9678af0")
+		)
+		(pin "05"
+			(uuid "0e0359da-5a5c-4fbc-af8a-7251ffb2e330")
+		)
+		(pin "07"
+			(uuid "774433ed-006f-4c45-b3a3-4f1e99ba33ca")
+		)
+		(pin "08"
+			(uuid "eec30c1b-4970-4910-ae67-95a54a1ac5cb")
+		)
+		(pin "09"
+			(uuid "36ed021a-29e2-4a7c-99fc-7b1ecb7a07f2")
+		)
+		(pin "12"
+			(uuid "89d820c8-696b-49d1-a8bd-4b0519dcf80b")
+		)
+		(pin "13"
+			(uuid "2963fdaa-27b6-4e6b-8b09-b4c8fd2d4495")
+		)
+		(pin "14"
+			(uuid "6b8b2f99-c4d6-414d-92ea-d77d422e3533")
+		)
+		(pin "15"
+			(uuid "f3accfe4-c539-4353-8a6c-045f1b0433b7")
+		)
+		(pin "17"
+			(uuid "eaae5fa9-078a-401c-a2f2-25b92e060f83")
+		)
+		(pin "18"
+			(uuid "c1b34544-6d81-4256-bf77-4675f4f12961")
+		)
+		(pin "20"
+			(uuid "2f367a12-1dee-402c-9d98-ee42c0a3e784")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "remote_enepaq_m5_clamp:Enepaq_M5_Clamp")
 		(at 45.72 119.38 180)
 		(unit 1)
@@ -6278,9 +5698,8 @@
 		)
 	)
 	(symbol
-		(lib_name "S4B-XH-SM4-TB_1")
 		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
-		(at 243.84 73.66 0)
+		(at 243.84 96.52 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -6288,9 +5707,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "79197c6d-52f5-45df-a2b3-31a038e4ad1b")
-		(property "Reference" "J2"
-			(at 248.92 69.85 0)
+		(uuid "7c42993d-de3a-4aef-afa7-fee6fe13d249")
+		(property "Reference" "J3"
+			(at 248.92 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6301,7 +5720,7 @@
 			)
 		)
 		(property "Value" "S4B-XH-SM4-TB"
-			(at 248.92 90.17 0)
+			(at 246.38 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6312,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +5742,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +5753,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6345,7 +5764,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,7 +5776,7 @@
 			)
 		)
 		(property "CREATOR" "NEZY"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +5788,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +5800,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +5812,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +5824,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,7 +5836,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,7 +5847,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,7 +5858,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6450,7 +5869,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,7 +5880,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,7 +5891,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +5902,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +5913,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +5924,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +5935,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6527,7 +5946,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6538,7 +5957,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 243.84 73.66 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,28 +5967,28 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "73e27974-04e8-4237-ba8f-8e6935bfaf26")
+		(pin "3"
+			(uuid "0bc75f60-278e-4cdd-8d7a-6343ee32c093")
 		)
 		(pin "SH1"
-			(uuid "8023a216-918c-4a94-b751-aa6f98f740e8")
+			(uuid "46047c8b-e3c8-442d-9308-2cdf6f449b0d")
 		)
 		(pin "1"
-			(uuid "8a3a1295-348e-4fa5-bf05-6691b377f73f")
+			(uuid "4a6434c1-472d-4fe6-b9b3-f00894cba4b7")
 		)
-		(pin "SH1"
-			(uuid "f866b7ed-08b5-4192-a6f7-6ab5fcaf2508")
+		(pin "2"
+			(uuid "21ee55f6-7f8c-41e4-acf8-dd38fd739210")
 		)
 		(pin "4"
-			(uuid "687023f8-120d-4fd9-99f9-cbfb0392debc")
+			(uuid "8ae009c8-de99-4816-921f-a9ea6ff9dc9d")
 		)
-		(pin "3"
-			(uuid "ee33cb4d-ff14-46da-922f-583b624f6e90")
+		(pin "SH2"
+			(uuid "46e798d2-d523-4ed6-867c-31f8380e5d7d")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6995,9 +6414,8 @@
 		)
 	)
 	(symbol
-		(lib_name "S4B-XH-SM4-TB_2")
 		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
-		(at 243.84 96.52 0)
+		(at 243.84 73.66 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -7005,9 +6423,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9783b217-e39d-483c-a9ca-09e44c5acb54")
-		(property "Reference" "J3"
-			(at 248.92 92.71 0)
+		(uuid "9797c97d-3ea8-42e1-b73d-e25cd7407703")
+		(property "Reference" "J2"
+			(at 248.92 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7018,7 +6436,7 @@
 			)
 		)
 		(property "Value" "S4B-XH-SM4-TB"
-			(at 248.92 113.03 0)
+			(at 246.38 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7029,7 +6447,7 @@
 			)
 		)
 		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +6458,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +6469,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7062,7 +6480,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7074,7 +6492,7 @@
 			)
 		)
 		(property "CREATOR" "NEZY"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +6504,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,7 +6516,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +6528,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,7 +6540,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +6552,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +6563,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,7 +6574,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7167,7 +6585,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7178,7 +6596,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7189,7 +6607,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7200,7 +6618,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +6629,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +6640,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +6651,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7244,7 +6662,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +6673,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 243.84 96.52 0)
+			(at 243.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,28 +6683,28 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "5a7ef0f5-7a5f-4717-acc4-09f3ee4b99ac")
+		(pin "3"
+			(uuid "46bf62c2-df5e-438a-ae4a-6759b9b47618")
 		)
 		(pin "SH1"
-			(uuid "e19dd949-617c-4e00-92c2-cef7fa34b012")
+			(uuid "5730b3d8-0c9f-4567-99b2-734306c96aa4")
 		)
 		(pin "1"
-			(uuid "6ae608ff-8623-4626-95f0-a263996b575b")
+			(uuid "7e631fcf-40c1-4c98-bcab-00e0d906f611")
 		)
-		(pin "SH1"
-			(uuid "e109b589-e75e-41e1-a9d5-ba10424893ad")
+		(pin "2"
+			(uuid "11e2a296-96e4-42b1-9ce8-00cfeb28be48")
 		)
 		(pin "4"
-			(uuid "ce321735-fed2-4bee-b35a-aebaae246398")
+			(uuid "ff694483-27c9-4b8f-8914-219cd9c5e832")
 		)
-		(pin "3"
-			(uuid "0e03aee0-32f8-476d-aed3-c941784c7ef1")
+		(pin "SH2"
+			(uuid "ae3af194-a597-4d86-b4e9-acf9806323b9")
 		)
 		(instances
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7504,304 +6922,6 @@
 		)
 	)
 	(symbol
-		(lib_name "S4B-XH-SM4-TB_3")
-		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
-		(at 243.84 119.38 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ec7a0bf-0573-4e30-b977-577e3d5193b1")
-		(property "Reference" "J4"
-			(at 248.92 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S4B-XH-SM4-TB"
-			(at 248.92 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "NEZY"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0982d081-0afa-4f39-8493-2259da611b60")
-		)
-		(pin "SH1"
-			(uuid "987cd98c-f8e9-4314-bd5c-a015e903ef86")
-		)
-		(pin "1"
-			(uuid "5a146013-a2c6-4ac6-a9e1-5913be12bf9b")
-		)
-		(pin "SH1"
-			(uuid "5be60a44-d8b5-49cb-9e9d-38b64ad777da")
-		)
-		(pin "4"
-			(uuid "80209989-117f-4d2a-a764-a48765acf0c5")
-		)
-		(pin "3"
-			(uuid "cf175342-3bd6-46f0-bf02-31791b18eab9")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "remote_0451.500mrl:0451.500MRL")
 		(at 55.88 73.66 0)
 		(unit 1)
@@ -8007,307 +7127,6 @@
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
 					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "remote_ipt1-110-01-l-d:IPT1-110-01-L-D")
-		(at 139.7 53.34 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a8ef460f-2ed5-423f-b9a4-004a407eb021")
-		(property "Reference" "J10"
-			(at 152.4 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPT1-110-01-L-D"
-			(at 152.4 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_ipt1-110-01-l-d:SAMTEC_IPT1-110-01-L-D"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/ipt1-1xx-xx-xx-d-xx-mkt.pdf"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 20 position 0.100\" (2.54mm)"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Samtec Inc."
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IPT1-110-01-L-D"
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 139.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "02"
-			(uuid "054e08ab-7c6a-4be6-a9af-5fa0d2a17b24")
-		)
-		(pin "01"
-			(uuid "e26e81b0-c702-4f95-ad1b-5327a8d372de")
-		)
-		(pin "03"
-			(uuid "dff443b6-0a94-42eb-a44e-ad8577178e52")
-		)
-		(pin "04"
-			(uuid "82032f61-5f27-4e5e-ac62-b69b16212343")
-		)
-		(pin "05"
-			(uuid "cf4a01fc-65f6-4229-91ad-8f1251b8ab15")
-		)
-		(pin "06"
-			(uuid "a0a2e31a-905d-4714-9488-f05d25d43c31")
-		)
-		(pin "07"
-			(uuid "d36657aa-f443-4aee-9c2c-47e2fa6e7171")
-		)
-		(pin "08"
-			(uuid "bc7e19cd-50a6-4083-9a31-6b137258a7fa")
-		)
-		(pin "13"
-			(uuid "19f68ac0-b9f2-489f-8188-a02e6457ffbf")
-		)
-		(pin "14"
-			(uuid "c6f1c333-6bad-4ae5-86f3-17ab7989f3e8")
-		)
-		(pin "15"
-			(uuid "abf26135-5bed-47ae-8b44-d467cfb8c8c0")
-		)
-		(pin "18"
-			(uuid "a345b731-fc19-46db-9882-5573229725c7")
-		)
-		(pin "10"
-			(uuid "d07278de-3b6b-4a40-9063-d527378e71dc")
-		)
-		(pin "20"
-			(uuid "260cd767-acb7-4d0c-9959-46970f5b490c")
-		)
-		(pin "11"
-			(uuid "6d66822a-dffa-47c4-a9e0-187283ba9579")
-		)
-		(pin "17"
-			(uuid "d8dfbd22-4b8c-46d6-9419-9972dd4badef")
-		)
-		(pin "09"
-			(uuid "157bf2e3-5d57-43c7-8624-2847594bdadc")
-		)
-		(pin "12"
-			(uuid "df12bb20-99ef-49b6-b149-40f81da5ba47")
-		)
-		(pin "16"
-			(uuid "3340015b-f08a-460e-a94a-dea562340369")
-		)
-		(pin "19"
-			(uuid "e5a09ddf-0fb0-4e61-89f5-d82729920092")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9357,303 +8176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
-		(at 243.84 50.8 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df10696e-1694-4287-8b87-0fdf4b7254a1")
-		(property "Reference" "J1"
-			(at 248.92 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S4B-XH-SM4-TB"
-			(at 248.92 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "NEZY"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "292647f3-a629-441e-8de7-2bd7c1e70701")
-		)
-		(pin "SH1"
-			(uuid "307760ae-0c9d-4b57-bc48-8c51ad2972e6")
-		)
-		(pin "1"
-			(uuid "4297584c-fd3b-48cf-82b8-bfa278a526d0")
-		)
-		(pin "SH1"
-			(uuid "421fff64-f724-49f6-9f37-4896b4da6584")
-		)
-		(pin "4"
-			(uuid "26ed6908-429f-45f7-bcb7-8720c3216f4f")
-		)
-		(pin "3"
-			(uuid "a4bd07a7-b95a-4802-a5b3-af60777f5f3f")
-		)
-		(instances
-			(project "battery_interface_board"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "remote_0451.500mrl:0451.500MRL")
 		(at 55.88 111.76 0)
 		(unit 1)
@@ -10275,6 +8797,303 @@
 			(project "battery_interface_board"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
 					(reference "MP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_s4b-xh-sm4-tb:S4B-XH-SM4-TB")
+		(at 243.84 50.8 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5f582b7-0e4b-46f9-b152-cd860b4b31c7")
+		(property "Reference" "J1"
+			(at 248.92 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S4B-XH-SM4-TB"
+			(at 246.38 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "remote_s4b-xh-sm4-tb:JST_S4B-XH-SM4-TB"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8900/S4B-XH-SM4-TB.pdf?_gl=1*14khep5*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwgJHXBhBGEiwAHohJq53t7zSR7CYR8TEeJwSUYJxiH8ybl38EmJvo4BngjlrNpU7aYC4HqRoCrZ0QAvD_BwE&gclsrc=aw.ds"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.098\" (2.50mm)"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.00mm"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "NEZY"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "S4B-XH-SM4-TB"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2de3ed78-c800-4aba-90a2-d0686a7f45c1")
+		)
+		(pin "SH1"
+			(uuid "63a2c661-f5ed-4de8-a3d7-d777f479e079")
+		)
+		(pin "1"
+			(uuid "2e5e1823-b67d-4744-8474-1586547c3099")
+		)
+		(pin "2"
+			(uuid "f058a5a4-9b93-4ae2-9e9a-99f8e8217bd9")
+		)
+		(pin "4"
+			(uuid "3e593ab4-d2f4-449d-93ca-f8f9ef37c7b0")
+		)
+		(pin "SH2"
+			(uuid "08d7a3ff-0c88-47df-ab44-0162b2f1cf60")
+		)
+		(instances
+			(project "battery_interface_board"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf"
+					(reference "J1")
 					(unit 1)
 				)
 			)

@@ -26,7 +26,7 @@
 	)
 	(rectangle
 		(start 19.05 194.31)
-		(end 90.17 195.072)
+		(end 93.98 195.072)
 		(stroke
 			(width 0)
 			(type default)
@@ -40,7 +40,7 @@
 	)
 	(rectangle
 		(start 19.05 161.29)
-		(end 90.17 162.052)
+		(end 93.98 162.052)
 		(stroke
 			(width 0)
 			(type default)
@@ -89,14 +89,14 @@
 		)
 		(uuid "01a9e8d1-328f-4de1-9044-fa4fdf6e11a1")
 	)
-	(text_box "Spec 4"
+	(text_box "Voltage Taps"
 		(exclude_from_sim no)
-		(at 20.32 185.42 0)
-		(size 44.45 7.62)
+		(at 17.78 177.8 0)
+		(size 44.45 8.5223)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -104,7 +104,7 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(thickness 0.4572)
 				(bold yes)
 				(color 0 0 0 1)
@@ -113,14 +113,14 @@
 		)
 		(uuid "0b8fa12d-be48-46d8-a337-f14f24e9a703")
 	)
-	(text_box "?? - ?? V"
+	(text_box "20 - 33.6 V"
 		(exclude_from_sim no)
-		(at 66.04 162.56 0)
-		(size 24.13 7.62)
+		(at 58.42 162.56 0)
+		(size 24.13 14.4329)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -128,21 +128,21 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "15dd005a-2a1f-436c-a9b8-4953c7e00daf")
 	)
-	(text_box "??"
+	(text_box "9 x 2.5 - 4.2V"
 		(exclude_from_sim no)
-		(at 66.04 185.42 0)
-		(size 24.13 7.62)
+		(at 58.42 177.8 0)
+		(size 35.56 12.7895)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -150,7 +150,7 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -202,6 +202,30 @@
 			)
 		)
 		(uuid "374667c2-a3ac-4629-8054-bca4f319c11b")
+	)
+	(text_box "Temp Inputs"
+		(exclude_from_sim no)
+		(at 17.78 185.42 0)
+		(size 44.45 8.5223)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "45d21a90-6154-4dbf-b5e8-036235bdbbb5")
 	)
 	(text_box "Cell Tap Fusing "
 		(exclude_from_sim no)
@@ -272,31 +296,9 @@
 		)
 		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
 	)
-	(text_box "??"
-		(exclude_from_sim no)
-		(at 66.04 170.18 0)
-		(size 24.13 7.62)
-		(margins 2.2859 2.2859 2.2859 2.2859)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "79a60212-4382-435d-b74b-f889451ff3a1")
-	)
 	(text_box "Input voltage:"
 		(exclude_from_sim no)
-		(at 20.32 162.56 0)
+		(at 17.78 162.56 0)
 		(size 41.91 7.62)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -309,7 +311,7 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(thickness 0.4572)
 				(bold yes)
 				(color 0 0 0 1)
@@ -356,7 +358,7 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(thickness 0.4572)
 				(bold yes)
 				(color 0 0 0 1)
@@ -388,14 +390,14 @@
 		)
 		(uuid "a117ab3e-40eb-4c15-87ad-ca94a205cba0")
 	)
-	(text_box "Spec 3"
+	(text_box "Tap current / protection"
 		(exclude_from_sim no)
-		(at 20.32 177.8 0)
-		(size 41.91 7.62)
+		(at 17.78 170.18 0)
+		(size 41.91 8.5223)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -403,7 +405,7 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(thickness 0.4572)
 				(bold yes)
 				(color 0 0 0 1)
@@ -412,14 +414,14 @@
 		)
 		(uuid "a94bbe48-2b5a-4095-ae3e-6304ba06e582")
 	)
-	(text_box "??"
+	(text_box "500 mA Fuse\n"
 		(exclude_from_sim no)
-		(at 66.04 177.8 0)
-		(size 24.13 7.62)
+		(at 58.42 170.18 0)
+		(size 24.13 8.5223)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -427,36 +429,12 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 3.048 3.048)
+				(size 2.54 2.54)
 				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "a9743942-0f35-4d97-920c-63913a3a8cf5")
-	)
-	(text_box "Spec 2"
-		(exclude_from_sim no)
-		(at 20.32 170.18 0)
-		(size 43.18 7.62)
-		(margins 2.2859 2.2859 2.2859 2.2859)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "acb13397-22c2-4daa-8b50-96cfdf3951b7")
 	)
 	(text_box "BATTERY"
 		(exclude_from_sim no)
@@ -526,6 +504,28 @@
 			)
 		)
 		(uuid "d521016b-3c67-4c77-8e74-ea7921242fc8")
+	)
+	(text_box "8 Enepaq, 1.30 - 2.44 V"
+		(exclude_from_sim no)
+		(at 58.42 185.42 0)
+		(size 40.64 12.7895)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f6953a59-5e08-47f8-ae78-a9b09fc14122")
 	)
 	(text_box "Measurement & Balance\n"
 		(exclude_from_sim no)

@@ -556,7 +556,7 @@
       },
       {
         "clearance": 0.5,
-        "name": "BUSH",
+        "name": "CLAMP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -566,7 +566,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.45,
         "name": "TAP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -577,7 +577,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.45,
         "name": "TEMP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -619,6 +619,33 @@
       ],
       "/Project Architecture/Connectors/BUSH9": [
         "BUSH"
+      ],
+      "/Project Architecture/Connectors/CLAMP0": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP1": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP2": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP3": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP4": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP5": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP6": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP7": [
+        "CLAMP"
+      ],
+      "/Project Architecture/Connectors/CLAMP8": [
+        "CLAMP"
       ],
       "/Project Architecture/Connectors/GND": [
         "TAP"
@@ -873,7 +900,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "G1-2,MP1-13,J1-18,F1-11,#PWR9,#PWR57-58",
+    "used_designators": "G1-2,MP1-13,J1-18,F1-11,#PWR9,#PWR57-58,H1-4",
     "variants": []
   },
   "sheets": [
