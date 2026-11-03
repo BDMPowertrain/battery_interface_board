@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+-   Fixed hole alignment with BMS_slave.
+
 ## [1.0.0] - 2026-11-03
 
 [unreleased]: https://github.com/BDMPowertrain/battery_interface_board/compare/1.0.0...HEAD
