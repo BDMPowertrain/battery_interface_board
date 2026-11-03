@@ -19,9 +19,9 @@
 ***
 
 <p align="center">
-  <img alt="3D Top Angled" src="${png_3d_viewer_angled_top_outpath}" width="45%">
+  <img alt="3D Top" src="${png_3d_viewer_top_outpath}" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3D Bottom Angled" src="${png_3d_viewer_angled_bottom_outpath}" width="45%">
+  <img alt="3D Bottom" src="${png_3d_viewer_bottom_outpath}" width="45%">
 </p>
 
 ***
@@ -34,27 +34,3 @@
 | Company | ${COMPANY} |
 | Designer | ${DESIGNER} |
 | Revision | ${REVISION} |
-
-***
-
-## WORKING ON THIS BOARD
-
-> This file is regenerated automatically on every CI run — don't edit it by
-> hand. For the full contributor guide (setup, daily commands, commit
-> conventions, PR etiquette, and what to do when something goes wrong), see
-> the [board_template README](https://github.com/BDMPowertrain/board_template#readme).
-
-**Change the variant** as the board moves through Design → Procurement →
-Fabrication:
-
-    ./configure.sh --variant
-
-**Change board metadata** (title, description, designer, company):
-
-    ./configure.sh
-
-RELEASED is never set by hand — push a version tag and CI produces it
-automatically:
-
-    git tag 1.0.0
-    git push origin 1.0.0
