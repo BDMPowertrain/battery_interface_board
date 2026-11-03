@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Connectors")
-		(date "2026-10-16")
+		(date "2026-11-03")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
 	)
 	(lib_symbols
 		(symbol "remote_0451.500mrl:0451.500MRL"
