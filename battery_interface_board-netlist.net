@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-822cmd4u/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-3p1oqd7z/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -9,9 +9,9 @@
 		(textvar
 			(name "BOARD_NAME") "BATTERY_INTERFACE_BOARD")
 		(textvar
-			(name "BRANCH") "dev")
+			(name "BRANCH") "main")
 		(textvar
-			(name "BUILD_VARIANT") "CHECKED")
+			(name "BUILD_VARIANT") "RELEASED")
 		(textvar
 			(name "COMPANY") "Blue Devil Motor Sports")
 		(textvar
@@ -21,9 +21,9 @@
 		(textvar
 			(name "FABRICATION_NOTES") "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLUE.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY BLUE DEVIL MOTOR SPORTS.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				300.000 × 47.000 mm\n	BOARD THICKNESS		1.590 mm\n	TRACE WIDTH			0.400 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.300 mm\n	MIN. HOLE (NPTH)		3.200 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.254 mm\n	COPPER TO EDGE		0.500 mm\n	HOLE TO HOLE			0.254 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
 		(textvar
-			(name "GIT_HASH_PCB") "e247924")
+			(name "GIT_HASH_PCB") "0683f88")
 		(textvar
-			(name "GIT_HASH_SCH") "e247924")
+			(name "GIT_HASH_SCH") "0683f88")
 		(textvar
 			(name "GIT_URL") "https://github.com/BDMPowertrain/battery_interface_board")
 		(textvar
@@ -43,9 +43,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "02-Nov-2026")
+			(name "RELEASE_DATE") "03-Nov-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-11-02")
+			(name "RELEASE_DATE_NUM") "2026-11-03")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -61,7 +61,7 @@
 		(textvar
 			(name "RELEASE_TITLE_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "REVISION") "+ (Unreleased)")
+			(name "REVISION") "1.0.0")
 		(textvar
 			(name "SHEET_NAME_1") "Cover Page")
 		(textvar
@@ -149,7 +149,7 @@
 			(title_block
 				(title)
 				(company "Blue Devil Motor Sports")
-				(rev "+ (Unreleased)")
+				(rev "1.0.0")
 				(date "Date")
 				(source "battery_interface_board.kicad_sch")
 				(comment
@@ -197,7 +197,7 @@
 			(title_block
 				(title "Block Diagram")
 				(company "Blue Devil Motor Sports")
-				(rev "+ (Unreleased)")
+				(rev "1.0.0")
 				(date "Date")
 				(source "Block Diagram.kicad_sch")
 				(comment
@@ -245,7 +245,7 @@
 			(title_block
 				(title "Project Architecture")
 				(company "Blue Devil Motor Sports")
-				(rev "+ (Unreleased)")
+				(rev "1.0.0")
 				(date "Date")
 				(source "Project Architecture.kicad_sch")
 				(comment
@@ -292,8 +292,8 @@
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/caee5302-a3c3-4942-b6e3-790145ad87bf/")
 			(title_block
 				(title "Connectors")
-				(company)
-				(rev)
+				(company "Blue Devil Motor Sports")
+				(rev "1.0.0")
 				(date "Date")
 				(source "connectors.kicad_sch")
 				(comment
@@ -340,8 +340,8 @@
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/71b5462d-a58c-4d2e-8ed8-5c1dde81347b/")
 			(title_block
 				(title "Mechanical")
-				(company)
-				(rev)
+				(company "Blue Devil Motor Sports")
+				(rev "1.0.0")
 				(date "Date")
 				(source "mechanical.kicad_sch")
 				(comment
@@ -389,7 +389,7 @@
 			(title_block
 				(title "Revision History")
 				(company "Blue Devil Motor Sports")
-				(rev "+ (Unreleased)")
+				(rev "1.0.0")
 				(date "Date")
 				(source "Revision History.kicad_sch")
 				(comment

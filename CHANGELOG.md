@@ -2,3 +2,7 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-03
+
+[unreleased]: https://github.com/BDMPowertrain/battery_interface_board/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/BDMPowertrain/battery_interface_board/compare/3d0e054ac1bec1bd1493495d3e7826bac80638cc...1.0.0
