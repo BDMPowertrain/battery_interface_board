@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-83y84lfv/battery_interface_board.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-uzxoay5u/battery_interface_board.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -9,9 +9,9 @@
 		(textvar
 			(name "BOARD_NAME") "BATTERY_INTERFACE_BOARD")
 		(textvar
-			(name "BRANCH") "main")
+			(name "BRANCH") "dev")
 		(textvar
-			(name "BUILD_VARIANT") "RELEASED")
+			(name "BUILD_VARIANT") "CHECKED")
 		(textvar
 			(name "COMPANY") "Blue Devil Motor Sports")
 		(textvar
@@ -29,39 +29,30 @@
 		(textvar
 			(name "PROJECT_NAME") "Battery Interface Board")
 		(textvar
-			(name "RELEASE_BODY_1.0.0")
+			(name "RELEASE_BODY_1") "___________________________________\n\nFixed\n\n- Fab doc impedence table/stack.")
+		(textvar
+			(name "RELEASE_BODY_2") "___________________________________\n\nFixed\n\n- Fixed hole alignment with BMS_slave.")
+		(textvar
+			(name "RELEASE_BODY_3")
 		)
 		(textvar
-			(name "RELEASE_BODY_1.0.1")
+			(name "RELEASE_BODY_4")
 		)
 		(textvar
-			(name "RELEASE_BODY_1.0.2")
+			(name "RELEASE_DATE") "10-Nov-2026")
+		(textvar
+			(name "RELEASE_DATE_NUM") "2026-11-10")
+		(textvar
+			(name "RELEASE_TITLE_1") "Version 1.2.0 - 2026-11-06")
+		(textvar
+			(name "RELEASE_TITLE_2") "Version 1.1.0 - 2026-11-03")
+		(textvar
+			(name "RELEASE_TITLE_3") "Version 1.0.0 - 2026-11-03")
+		(textvar
+			(name "RELEASE_TITLE_4")
 		)
 		(textvar
-			(name "RELEASE_BODY_1.1.0")
-		)
-		(textvar
-			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
-		(textvar
-			(name "RELEASE_DATE") "05-Nov-2026")
-		(textvar
-			(name "RELEASE_DATE_NUM") "2026-11-05")
-		(textvar
-			(name "RELEASE_TITLE_1.0.0")
-		)
-		(textvar
-			(name "RELEASE_TITLE_1.0.1")
-		)
-		(textvar
-			(name "RELEASE_TITLE_1.0.2")
-		)
-		(textvar
-			(name "RELEASE_TITLE_1.1.0")
-		)
-		(textvar
-			(name "RELEASE_TITLE_UNRELEASED") "Version Unreleased not found.")
-		(textvar
-			(name "REVISION") "1.2.0")
+			(name "REVISION") "1.2.0+ (Unreleased)")
 		(textvar
 			(name "SHEET_NAME_1") "Cover Page")
 		(textvar
@@ -149,7 +140,7 @@
 			(title_block
 				(title)
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "battery_interface_board.kicad_sch")
 				(comment
@@ -197,7 +188,7 @@
 			(title_block
 				(title "Block Diagram")
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "Block Diagram.kicad_sch")
 				(comment
@@ -245,7 +236,7 @@
 			(title_block
 				(title "Project Architecture")
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "Project Architecture.kicad_sch")
 				(comment
@@ -293,7 +284,7 @@
 			(title_block
 				(title "Connectors")
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "connectors.kicad_sch")
 				(comment
@@ -341,7 +332,7 @@
 			(title_block
 				(title "Mechanical")
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "mechanical.kicad_sch")
 				(comment
@@ -389,7 +380,7 @@
 			(title_block
 				(title "Revision History")
 				(company "Blue Devil Motor Sports")
-				(rev "1.2.0")
+				(rev "1.2.0+ (Unreleased)")
 				(date "Date")
 				(source "Revision History.kicad_sch")
 				(comment

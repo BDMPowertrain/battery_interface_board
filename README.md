@@ -8,7 +8,7 @@
 
 <p align="center" width="100%">
   <a href="https://github.com/BDMPowertrain/battery_interface_board/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/BDMPowertrain/battery_interface_board/actions/workflows/ci.yaml/badge.svg?branch=main">
+    <img alt="CI Badge" src="https://github.com/BDMPowertrain/battery_interface_board/actions/workflows/ci.yaml/badge.svg?branch=dev">
   </a>
 </p>
 
@@ -33,4 +33,4 @@
 | Dimensions | 300.0 × 47.0 mm |
 | Company | Blue Devil Motor Sports |
 | Designer | Aidan Brzezinski |
-| Revision | 1.2.0 |
+| Revision | 1.2.0+ (Unreleased) |
