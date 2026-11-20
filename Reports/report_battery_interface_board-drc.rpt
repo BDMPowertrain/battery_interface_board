@@ -1,10 +1,43 @@
 ** Drc report for battery_interface_board.kicad_pcb **
-** Created on 2026-11-18T01:30:39 **
+** Created on 2026-11-20T18:38:19 **
 
 ** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 11 Footprint errors **
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(80.0 mm, 159.529 mm): Footprint MP5
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(156.0 mm, 159.529 mm): Footprint MP6
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(232.0 mm, 159.529 mm): Footprint MP7
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(308.0 mm, 159.529 mm): Footprint MP8
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(359.1 mm, 159.529 mm): Footprint MP9
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(308.0 mm, 135.471 mm): Footprint MP10
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(232.0 mm, 135.471 mm): Footprint MP11
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(156.0 mm, 135.471 mm): Footprint MP12
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(80.0 mm, 135.471 mm): Footprint MP13
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(204.5 mm, 146.5 mm): Footprint G1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ
+    ; warning
+    @(347.0 mm, 131.5 mm): Footprint G2
 
 ** End of Report **
