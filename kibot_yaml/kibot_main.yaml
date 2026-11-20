@@ -510,7 +510,7 @@ definitions:
 
   PROJECT_NAME: "Battery Interface Board"
   BOARD_NAME: BATTERY_INTERFACE_BOARD
-  DESCRIPTION: "This board interfaces with the cell tap connctons fusing them, and collecting them to one connector."
+  DESCRIPTION: "This board interfaces with the cell tap connctons fusing them, and collecting them to one connector for the BMS Slave board"
 
   COMPANY: "Blue Devil Motor Sports"
   DESIGNER: "Aidan Brzezinski"

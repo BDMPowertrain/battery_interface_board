@@ -4,7 +4,7 @@
 
 <h1 align="center">BATTERY_INTERFACE_BOARD</h1>
 <p align="center">Battery Interface Board</p>
-<p align="center"><em>This board interfaces with the cell tap connctons fusing them, and collecting them to one connector.</em></p>
+<p align="center"><em>This board interfaces with the cell tap connctons fusing them, and collecting them to one connector for the BMS Slave board</em></p>
 
 <p align="center" width="100%">
   <a href="https://github.com/BDMPowertrain/battery_interface_board/actions/workflows/ci.yaml">
@@ -33,4 +33,4 @@
 | Dimensions | 300.0 × 47.0 mm |
 | Company | Blue Devil Motor Sports |
 | Designer | Aidan Brzezinski |
-| Revision | 1.2.0 |
+| Revision | 1.2.1 |
